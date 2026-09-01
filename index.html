@@ -7,18 +7,505 @@
         <link rel="icon" type="image/x-icon" href="fav.ico" />
         <meta
             name="description"
-            content="Private homepage of Bartosz Makosch, computer engineer, programmer, and cycling enthusiast."
+            content="Computer engineer. Builds LLM and agent tooling, local-first web apps and small command-line tools, with an emphasis on measuring and verifying what software claims to do."
         />
         <meta
             name="keywords"
-            content="Bartosz, Makosch, computer engineer, programmer, cycling"
+            content="computer engineer, LLM tooling, agent tooling, local-first, command-line tools, cycling"
         />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Bartosz Makosch" />
+        <!-- jsonld:start -->
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Person",
+              "@id": "#person",
+              "name": "Bartosz Makosch",
+              "url": "/",
+              "description": "Builds LLM and agent tooling, local-first web apps and small command-line tools, with an emphasis on measuring and verifying what software claims to do.",
+              "knowsAbout": [
+                "adsb",
+                "agent-monitoring",
+                "ai-agents",
+                "anthropic",
+                "api-proxy",
+                "app-icons",
+                "append-only",
+                "appicon",
+                "ascii-art",
+                "attack-surface",
+                "attestation",
+                "audio",
+                "audio-device",
+                "backup",
+                "bash",
+                "benchmark",
+                "blackhole",
+                "bonn",
+                "broadcast",
+                "calendar",
+                "canvas",
+                "car",
+                "changelog",
+                "claude",
+                "claude-code",
+                "claude-code-statusline",
+                "cleaning-schedule",
+                "cli",
+                "client-side",
+                "clipboard",
+                "code-golf",
+                "command-line",
+                "comparison-tool",
+                "competition",
+                "coreaudio",
+                "cost-tracking",
+                "dashboard",
+                "deployment",
+                "developer-tools",
+                "docker",
+                "document-extraction",
+                "email",
+                "email-header",
+                "email-security",
+                "epc-qr",
+                "events",
+                "fact-checking",
+                "fish",
+                "fitness",
+                "forgejo",
+                "freshrss",
+                "freshrss-extension",
+                "fzf",
+                "girocode",
+                "git",
+                "git-log",
+                "gitea",
+                "github-pages",
+                "gitlab",
+                "go",
+                "google-takeout",
+                "gym",
+                "hackspace",
+                "healthcheck",
+                "homebrew",
+                "hotkey",
+                "icloud",
+                "icloud-photos",
+                "icon-generator",
+                "ics",
+                "insurance",
+                "ios",
+                "javascript",
+                "jq",
+                "keyboard",
+                "leaderboard",
+                "link-converter",
+                "live",
+                "llm",
+                "local-first",
+                "local-llm",
+                "localstorage",
+                "logbook",
+                "lua",
+                "mac-app",
+                "macos",
+                "minimalism",
+                "monitoring",
+                "music",
+                "ndjson",
+                "news-ticker",
+                "no-build",
+                "notes",
+                "offline-first",
+                "oh-my-zsh",
+                "payments",
+                "pdf-extraction",
+                "pegelonline",
+                "phishing",
+                "php",
+                "podman",
+                "privacy",
+                "pwa",
+                "python",
+                "qr-code",
+                "ransomware-protection",
+                "rate-limit",
+                "reading-history",
+                "rechtsschutz",
+                "release-notes",
+                "restic",
+                "rhine",
+                "rollback",
+                "rss",
+                "rss-reader",
+                "security",
+                "self-healing",
+                "self-hosted",
+                "sepa",
+                "serverless",
+                "shell",
+                "songlink-alternative",
+                "spam",
+                "static-site",
+                "statusline",
+                "stone-chip",
+                "streaming",
+                "supply-chain-security",
+                "swift",
+                "swiftui",
+                "sysadmin",
+                "systemd",
+                "tailscale",
+                "terminal",
+                "terminal-colors",
+                "textual",
+                "tmux",
+                "trust",
+                "tui",
+                "typescript",
+                "updater",
+                "usage-tracking",
+                "uv",
+                "verification",
+                "vpn",
+                "watch-history",
+                "watchos",
+                "water-level",
+                "wg-quick",
+                "windshield",
+                "wireguard",
+                "workout-tracker",
+                "xcode",
+                "youtube",
+                "zero-dependency",
+                "zsh",
+                "zsh-plugin",
+                "zsh-prompt"
+              ],
+              "sameAs": [
+                "https://github.com/bmmmm"
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "#website",
+              "url": "/",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "wallii",
+              "codeRepository": "https://github.com/bmmmm/wallii",
+              "description": "append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.",
+              "programmingLanguage": "Go",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "claudii",
+              "codeRepository": "https://github.com/bmmmm/claudii",
+              "description": "statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.",
+              "programmingLanguage": "Shell",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "check0r3000",
+              "codeRepository": "https://github.com/bmmmm/check0r3000",
+              "description": "LLM extraction of comparable facts out of insurance terms, with a model benchmark built into the tool.",
+              "programmingLanguage": "Python",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "bumpii",
+              "codeRepository": "https://github.com/bmmmm/bumpii",
+              "description": "read what actually changed in the tools you run, judged against how you actually use them.",
+              "programmingLanguage": "TypeScript",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "gateii",
+              "codeRepository": "https://github.com/bmmmm/gateii",
+              "description": "minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana.",
+              "programmingLanguage": "Lua",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "comparereleaseii",
+              "codeRepository": "https://github.com/bmmmm/comparereleaseii",
+              "description": "fact-check release notes against the actual code diff — GitHub, Forgejo, GitLab or any git clone.",
+              "programmingLanguage": "TypeScript",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "cc-insomnii",
+              "codeRepository": "https://github.com/bmmmm/cc-insomnii",
+              "description": "a bedtime-shaming statusline for Claude Code.",
+              "programmingLanguage": "Shell",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "stattii",
+              "codeRepository": "https://github.com/bmmmm/stattii",
+              "description": "attestation over an event calendar — cancellations propagate outward with delivery proof.",
+              "programmingLanguage": "Go",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "how-small-can-we-go",
+              "codeRepository": "https://github.com/bmmmm/how-small-can-we-go",
+              "description": "trust-golf: one champion per task, dethroned by needing less trust. Measured, never claimed.",
+              "programmingLanguage": "Go",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "baaackaaab",
+              "codeRepository": "https://github.com/bmmmm/baaackaaab",
+              "description": "one-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store.",
+              "programmingLanguage": "Swift",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "revertii",
+              "codeRepository": "https://github.com/bmmmm/revertii",
+              "description": "update a service with the way back built in: snapshot, dead man's switch, health-check, revert.",
+              "programmingLanguage": "Shell",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "putzii",
+              "codeRepository": "https://github.com/bmmmm/putzii",
+              "description": "cleaning schedule shared by capability link, with QR check-in. No backend at all.",
+              "programmingLanguage": "JavaScript",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "gymii",
+              "codeRepository": "https://github.com/bmmmm/gymii",
+              "description": "floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.",
+              "programmingLanguage": "JavaScript",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "kuvertii",
+              "codeRepository": "https://github.com/bmmmm/kuvertii",
+              "description": "read what an email header says about you — who it was really addressed to, where the unsubscribe link leads.",
+              "programmingLanguage": "JavaScript",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "musiclinkii",
+              "codeRepository": "https://github.com/bmmmm/musiclinkii",
+              "description": "turn one music link into links for every streaming platform.",
+              "programmingLanguage": "JavaScript",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "shieldchipiii",
+              "codeRepository": "https://github.com/bmmmm/shieldchipiii",
+              "description": "stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory.",
+              "programmingLanguage": "JavaScript",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "app-icons-generator",
+              "codeRepository": "https://github.com/bmmmm/app-icons-generator",
+              "description": "every iOS, macOS and watchOS icon size from one 1024px PNG — CLI and browser.",
+              "programmingLanguage": "Shell",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "db-wallet",
+              "codeRepository": "https://github.com/bmmmm/db-wallet",
+              "description": "drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.",
+              "programmingLanguage": "JavaScript",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "pegel-visual",
+              "codeRepository": "https://github.com/bmmmm/pegel-visual",
+              "description": "live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.",
+              "programmingLanguage": "JavaScript",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "youtubehistii",
+              "codeRepository": "https://github.com/bmmmm/youtubehistii",
+              "description": "local YouTube watch-history analyzer — topics, and consume vs. learn. Fully on-device.",
+              "programmingLanguage": "Go",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "epcii",
+              "codeRepository": "https://github.com/bmmmm/epcii",
+              "description": "EPC QR code (GiroCode) generator — one static binary with its own QR encoder core.",
+              "programmingLanguage": "Go",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "pwdtintii",
+              "codeRepository": "https://github.com/bmmmm/pwdtintii",
+              "description": "the terminal background takes its colour from the directory you are in. zsh, bash, fish, tmux-aware.",
+              "programmingLanguage": "Shell",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "vpnii",
+              "codeRepository": "https://github.com/bmmmm/vpnii",
+              "description": "VPN status in the zsh prompt, on top of WireGuard and Tailscale.",
+              "programmingLanguage": "Shell",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "audioctl",
+              "codeRepository": "https://github.com/bmmmm/audioctl",
+              "description": "switch macOS output and input devices, volume, mute and sample rate from the CLI.",
+              "programmingLanguage": "Swift",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "KeebLock",
+              "codeRepository": "https://github.com/bmmmm/KeebLock",
+              "description": "locks the keyboard while you clean it, with animations worth the thirty seconds.",
+              "programmingLanguage": "Swift",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "git-times-live",
+              "codeRepository": "https://github.com/bmmmm/git-times-live",
+              "description": "a standalone live broadcast TV channel for your git activity.",
+              "programmingLanguage": "Shell",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "NoteDrop",
+              "codeRepository": "https://github.com/bmmmm/xExtension-NoteDrop",
+              "description": "drop notes and links on one device, copy them on another with one click.",
+              "programmingLanguage": "PHP",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "ClickHistory",
+              "codeRepository": "https://github.com/bmmmm/xExtension-ClickHistory",
+              "description": "keeps a history of the article links you actually opened.",
+              "programmingLanguage": "PHP",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "ShareViaQRCode",
+              "codeRepository": "https://github.com/bmmmm/xExtension-ShareViaQRCode",
+              "description": "a large QR code for the current article, so a phone can pick the link off the screen.",
+              "programmingLanguage": "JavaScript",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "ExitReaderView",
+              "codeRepository": "https://github.com/bmmmm/xExtension-ExitReaderView",
+              "description": "a floating button to leave the reading view in one click.",
+              "programmingLanguage": "JavaScript",
+              "author": {
+                "@id": "#person"
+              }
+            }
+          ]
+        }
+        </script>
+        <!-- jsonld:end -->
         <style>
             html,
             body {
-                height: 100%;
+                min-height: 100%;
                 margin: 0;
                 padding: 0;
             }
@@ -49,6 +536,37 @@
             }
             .font-color {
                 color: lightgray;
+            }
+            /* The project list is generated; see .github/scripts/build-site.sh.
+               Left-aligned against the centred card above it, because a list of
+               sentences is read, not admired. */
+            .projects {
+                text-align: left;
+                margin: 40px auto 0;
+                max-width: 44em;
+                font-size: 0.95rem;
+                line-height: 1.5;
+            }
+            .projects h2 {
+                font-size: 1.1rem;
+                font-weight: normal;
+                border-bottom: 1px solid darkgray;
+                padding-bottom: 4px;
+            }
+            .projects h3 {
+                font-size: 1rem;
+                margin: 1.6em 0 0;
+            }
+            .projects .tagline {
+                margin: 0.2em 0 0.6em;
+                color: dimgray;
+            }
+            .projects ul {
+                margin: 0;
+                padding-left: 1.2em;
+            }
+            .projects li {
+                margin-bottom: 0.45em;
             }
             .footer {
                 margin-top: 20px;
@@ -92,6 +610,68 @@
 /_______________________________________________________________________\
 \_______________________________________________________________________/
                 </pre>
+            </div>
+            <div class="projects">
+                <h2>What I build</h2>
+                <p class="tagline">
+                    Small, sharp tools that do one thing and can prove they did
+                    it. Newest first in each group. The source for all of them
+                    is on <a href="https://github.com/bmmmm">GitHub</a>; this
+                    list and <a href="llms.txt">llms.txt</a> are generated from
+                    the same file, so they cannot say different things.
+                </p>
+                <!-- projects:start -->
+                <h3>LLM & agent tooling</h3>
+                <p class="tagline">Instrumenting, measuring and fact-checking what models actually do</p>
+                <ul>
+                    <li><a href="https://github.com/bmmmm/wallii">wallii</a> — append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.</li>
+                    <li><a href="https://github.com/bmmmm/claudii">claudii</a> — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons. <a href="https://bmmmm.github.io/claudii/">live</a></li>
+                    <li><a href="https://github.com/bmmmm/check0r3000">check0r3000</a> — LLM extraction of comparable facts out of insurance terms, with a model benchmark built into the tool.</li>
+                    <li><a href="https://github.com/bmmmm/bumpii">bumpii</a> — read what actually changed in the tools you run, judged against how you actually use them.</li>
+                    <li><a href="https://github.com/bmmmm/gateii">gateii</a> — minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana.</li>
+                    <li><a href="https://github.com/bmmmm/comparereleaseii">comparereleaseii</a> — fact-check release notes against the actual code diff — GitHub, Forgejo, GitLab or any git clone. <a href="https://bmmmm.github.io/comparereleaseii/demo/">live</a></li>
+                    <li><a href="https://github.com/bmmmm/cc-insomnii">cc-insomnii</a> — a bedtime-shaming statusline for Claude Code.</li>
+                </ul>
+                <h3>Backup, recovery & proof</h3>
+                <p class="tagline">Systems that assume the failure already happened and stay useful anyway</p>
+                <ul>
+                    <li><a href="https://github.com/bmmmm/stattii">stattii</a> — attestation over an event calendar — cancellations propagate outward with delivery proof.</li>
+                    <li><a href="https://github.com/bmmmm/how-small-can-we-go">how-small-can-we-go</a> — trust-golf: one champion per task, dethroned by needing less trust. Measured, never claimed. <a href="https://bmmmm.github.io/how-small-can-we-go/">live</a></li>
+                    <li><a href="https://github.com/bmmmm/baaackaaab">baaackaaab</a> — one-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store.</li>
+                    <li><a href="https://github.com/bmmmm/revertii">revertii</a> — update a service with the way back built in: snapshot, dead man's switch, health-check, revert.</li>
+                </ul>
+                <h3>Local-first web apps</h3>
+                <p class="tagline">Static pages that keep your data in your own browser</p>
+                <ul>
+                    <li><a href="https://github.com/bmmmm/putzii">putzii</a> — cleaning schedule shared by capability link, with QR check-in. No backend at all. <a href="https://bmmmm.github.io/putzii/">live</a></li>
+                    <li><a href="https://github.com/bmmmm/gymii">gymii</a> — floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device. <a href="https://bmmmm.github.io/gymii/">live</a></li>
+                    <li><a href="https://github.com/bmmmm/kuvertii">kuvertii</a> — read what an email header says about you — who it was really addressed to, where the unsubscribe link leads. <a href="https://bmmmm.github.io/kuvertii/">live</a></li>
+                    <li><a href="https://github.com/bmmmm/musiclinkii">musiclinkii</a> — turn one music link into links for every streaming platform. <a href="https://bmmmm.github.io/musiclinkii/">live</a></li>
+                    <li><a href="https://github.com/bmmmm/shieldchipiii">shieldchipiii</a> — stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory. <a href="https://bmmmm.github.io/shieldchipiii/">live</a></li>
+                    <li><a href="https://github.com/bmmmm/app-icons-generator">app-icons-generator</a> — every iOS, macOS and watchOS icon size from one 1024px PNG — CLI and browser. <a href="https://bmmmm.github.io/app-icons-generator/">live</a></li>
+                    <li><a href="https://github.com/bmmmm/db-wallet">db-wallet</a> — drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn. <a href="https://bmmmm.github.io/db-wallet/">live</a></li>
+                </ul>
+                <h3>Terminal & macOS</h3>
+                <p class="tagline">Things that live in a shell, or in the menu bar next to it</p>
+                <ul>
+                    <li><a href="https://github.com/bmmmm/pegel-visual">pegel-visual</a> — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver. <a href="https://bmmmm.github.io/pegel-visual/">live</a></li>
+                    <li><a href="https://github.com/bmmmm/youtubehistii">youtubehistii</a> — local YouTube watch-history analyzer — topics, and consume vs. learn. Fully on-device.</li>
+                    <li><a href="https://github.com/bmmmm/epcii">epcii</a> — EPC QR code (GiroCode) generator — one static binary with its own QR encoder core.</li>
+                    <li><a href="https://github.com/bmmmm/pwdtintii">pwdtintii</a> — the terminal background takes its colour from the directory you are in. zsh, bash, fish, tmux-aware.</li>
+                    <li><a href="https://github.com/bmmmm/vpnii">vpnii</a> — VPN status in the zsh prompt, on top of WireGuard and Tailscale.</li>
+                    <li><a href="https://github.com/bmmmm/audioctl">audioctl</a> — switch macOS output and input devices, volume, mute and sample rate from the CLI.</li>
+                    <li><a href="https://github.com/bmmmm/KeebLock">KeebLock</a> — locks the keyboard while you clean it, with animations worth the thirty seconds.</li>
+                    <li><a href="https://github.com/bmmmm/git-times-live">git-times-live</a> — a standalone live broadcast TV channel for your git activity. <a href="https://bmmmm.github.io/git-times-live/">live</a></li>
+                </ul>
+                <h3>FreshRSS extensions</h3>
+                <p class="tagline">Four small extensions for the reader I actually use every day</p>
+                <ul>
+                    <li><a href="https://github.com/bmmmm/xExtension-NoteDrop">NoteDrop</a> — drop notes and links on one device, copy them on another with one click.</li>
+                    <li><a href="https://github.com/bmmmm/xExtension-ClickHistory">ClickHistory</a> — keeps a history of the article links you actually opened.</li>
+                    <li><a href="https://github.com/bmmmm/xExtension-ShareViaQRCode">ShareViaQRCode</a> — a large QR code for the current article, so a phone can pick the link off the screen.</li>
+                    <li><a href="https://github.com/bmmmm/xExtension-ExitReaderView">ExitReaderView</a> — a floating button to leave the reading view in one click.</li>
+                </ul>
+                <!-- projects:end -->
             </div>
             <div class="footer">
                 <a href="disclaimer.html" target="_blank"
