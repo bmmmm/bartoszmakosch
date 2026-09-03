@@ -1,2 +1,24 @@
+# Content signals — what this site permits AI systems to do with its contents.
+# A machine-readable preference, not an access control: nothing here is
+# disallowed, every crawler may read every page. Spec: https://contentsignals.org
+#
+#   search=yes     index this site, return links and short excerpts
+#   ai-train=no    do not train or fine-tune models on it
+#   use=reference  cite and link it rather than reproduce it whole
+#
+# ai-input — retrieval, grounding, answering a question from the live page —
+# deliberately carries no signal. An assistant that fetches llms.txt because
+# someone asked about this person is doing what llms.txt is published for, and
+# an unset signal neither grants nor restricts it.
+#
+# The restriction above is an express reservation of rights under Article 4 of
+# EU Directive 2019/790.
+#
+# Kept here rather than left to Cloudflare's managed robots.txt: that one was
+# measured twice on 2026-09-03 and injected nothing, so the declaration would
+# have existed in a dashboard and not on the wire. This file is versioned and
+# answers for itself.
+
 User-agent: *
+Content-Signal: search=yes,ai-train=no,use=reference
 Allow: /
