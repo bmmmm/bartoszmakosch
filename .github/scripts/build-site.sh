@@ -82,7 +82,7 @@ jq -n --slurpfile f "$feed" --rawfile knows "$tmp/knows.txt" --arg name "$site_n
   ($f[0]) as $feed |
   {
     "@context": "https://schema.org",
-    "@graph": [
+    "@graph": ([
       {
         "@type": "Person",
         "@id": "#person",
@@ -107,7 +107,7 @@ jq -n --slurpfile f "$feed" --rawfile knows "$tmp/knows.txt" --arg name "$site_n
         "programmingLanguage": .language,
         "author": { "@id": "#person" }
       } | with_entries(select(.value != null))
-    ]
+    ])
   }' > "$tmp/ld.json"
 
 {
