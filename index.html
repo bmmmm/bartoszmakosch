@@ -9,6 +9,11 @@
              200 because unknown paths returned the front page; since 404.html
              it would be a 404 on every single visit. -->
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <!-- 192px, an exact 12x of the 16px source, scaled nearest-neighbour so
+             the pixel art stays sharp, and opaque because iOS composites the
+             home-screen icon and does not honour alpha. iOS also masks the
+             corners, which rounds the drawn frame — intended. -->
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <!-- Absolute on purpose, and the only place in the page that is. The
              apex and the www host both answer 200, so a relative canonical
              would resolve per host and name two pages instead of one. The
