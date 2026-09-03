@@ -4,7 +4,11 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Bartosz Makosch</title>
-        <link rel="icon" type="image/x-icon" href="fav.ico" />
+        <!-- Named favicon.ico, not fav.ico: every browser and crawler probes
+             /favicon.ico whether or not this tag exists. It used to be a soft
+             200 because unknown paths returned the front page; since 404.html
+             it would be a 404 on every single visit. -->
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <!-- Absolute on purpose, and the only place in the page that is. The
              apex and the www host both answer 200, so a relative canonical
              would resolve per host and name two pages instead of one. The
