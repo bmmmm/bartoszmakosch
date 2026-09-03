@@ -12,11 +12,11 @@ source. Source code for all of them: https://github.com/bmmmm
 Instrumenting, measuring and fact-checking what models actually do.
 
 - [wallii](https://github.com/bmmmm/wallii): append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. (Go)
+- [comparereleaseii](https://github.com/bmmmm/comparereleaseii): fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone. Live: https://bmmmm.github.io/comparereleaseii/demo/ (TypeScript)
 - [claudii](https://github.com/bmmmm/claudii): statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons. Live: https://bmmmm.github.io/claudii/ (Shell)
-- [check0r3000](https://github.com/bmmmm/check0r3000): LLM extraction of comparable facts out of insurance terms, with a model benchmark built into the tool. (Python)
-- [bumpii](https://github.com/bmmmm/bumpii): read what actually changed in the tools you run, judged against how you actually use them. (TypeScript)
+- [check0r3000](https://github.com/bmmmm/check0r3000): LLM extraction of comparable facts out of insurance terms, benchmarked against golden files. Finding so far: what you feed the model matters more than which model. (Python)
+- [bumpii](https://github.com/bmmmm/bumpii): reads what changed in the tools you run and keeps only what touches the features you use. (TypeScript)
 - [gateii](https://github.com/bmmmm/gateii): minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana. (Lua)
-- [comparereleaseii](https://github.com/bmmmm/comparereleaseii): fact-check release notes against the actual code diff — GitHub, Forgejo, GitLab or any git clone. Live: https://bmmmm.github.io/comparereleaseii/demo/ (TypeScript)
 - [cc-insomnii](https://github.com/bmmmm/cc-insomnii): a bedtime-shaming statusline for Claude Code. (Shell)
 
 ## Backup, recovery & proof
@@ -32,9 +32,9 @@ Systems that assume the failure already happened and stay useful anyway.
 
 Static pages that keep your data in your own browser.
 
+- [kuvertii](https://github.com/bmmmm/kuvertii): read what an email header says about you — who it was really addressed to, where the unsubscribe link leads. Live: https://bmmmm.github.io/kuvertii/ (JavaScript)
 - [putzii](https://github.com/bmmmm/putzii): cleaning schedule shared by capability link, with QR check-in. No backend at all. Live: https://bmmmm.github.io/putzii/ (JavaScript)
 - [gymii](https://github.com/bmmmm/gymii): floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device. Live: https://bmmmm.github.io/gymii/ (JavaScript)
-- [kuvertii](https://github.com/bmmmm/kuvertii): read what an email header says about you — who it was really addressed to, where the unsubscribe link leads. Live: https://bmmmm.github.io/kuvertii/ (JavaScript)
 - [musiclinkii](https://github.com/bmmmm/musiclinkii): turn one music link into links for every streaming platform. Live: https://bmmmm.github.io/musiclinkii/ (JavaScript)
 - [shieldchipiii](https://github.com/bmmmm/shieldchipiii): stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory. Live: https://bmmmm.github.io/shieldchipiii/ (JavaScript)
 - [app-icons-generator](https://github.com/bmmmm/app-icons-generator): every iOS, macOS and watchOS icon size from one 1024px PNG — CLI and browser. Live: https://bmmmm.github.io/app-icons-generator/ (Shell)

@@ -210,6 +210,16 @@
             },
             {
               "@type": "SoftwareSourceCode",
+              "name": "comparereleaseii",
+              "codeRepository": "https://github.com/bmmmm/comparereleaseii",
+              "description": "fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.",
+              "programmingLanguage": "TypeScript",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
               "name": "claudii",
               "codeRepository": "https://github.com/bmmmm/claudii",
               "description": "statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.",
@@ -222,7 +232,7 @@
               "@type": "SoftwareSourceCode",
               "name": "check0r3000",
               "codeRepository": "https://github.com/bmmmm/check0r3000",
-              "description": "LLM extraction of comparable facts out of insurance terms, with a model benchmark built into the tool.",
+              "description": "LLM extraction of comparable facts out of insurance terms, benchmarked against golden files. Finding so far: what you feed the model matters more than which model.",
               "programmingLanguage": "Python",
               "author": {
                 "@id": "#person"
@@ -232,7 +242,7 @@
               "@type": "SoftwareSourceCode",
               "name": "bumpii",
               "codeRepository": "https://github.com/bmmmm/bumpii",
-              "description": "read what actually changed in the tools you run, judged against how you actually use them.",
+              "description": "reads what changed in the tools you run and keeps only what touches the features you use.",
               "programmingLanguage": "TypeScript",
               "author": {
                 "@id": "#person"
@@ -244,16 +254,6 @@
               "codeRepository": "https://github.com/bmmmm/gateii",
               "description": "minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana.",
               "programmingLanguage": "Lua",
-              "author": {
-                "@id": "#person"
-              }
-            },
-            {
-              "@type": "SoftwareSourceCode",
-              "name": "comparereleaseii",
-              "codeRepository": "https://github.com/bmmmm/comparereleaseii",
-              "description": "fact-check release notes against the actual code diff — GitHub, Forgejo, GitLab or any git clone.",
-              "programmingLanguage": "TypeScript",
               "author": {
                 "@id": "#person"
               }
@@ -310,6 +310,16 @@
             },
             {
               "@type": "SoftwareSourceCode",
+              "name": "kuvertii",
+              "codeRepository": "https://github.com/bmmmm/kuvertii",
+              "description": "read what an email header says about you — who it was really addressed to, where the unsubscribe link leads.",
+              "programmingLanguage": "JavaScript",
+              "author": {
+                "@id": "#person"
+              }
+            },
+            {
+              "@type": "SoftwareSourceCode",
               "name": "putzii",
               "codeRepository": "https://github.com/bmmmm/putzii",
               "description": "cleaning schedule shared by capability link, with QR check-in. No backend at all.",
@@ -323,16 +333,6 @@
               "name": "gymii",
               "codeRepository": "https://github.com/bmmmm/gymii",
               "description": "floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.",
-              "programmingLanguage": "JavaScript",
-              "author": {
-                "@id": "#person"
-              }
-            },
-            {
-              "@type": "SoftwareSourceCode",
-              "name": "kuvertii",
-              "codeRepository": "https://github.com/bmmmm/kuvertii",
-              "description": "read what an email header says about you — who it was really addressed to, where the unsubscribe link leads.",
               "programmingLanguage": "JavaScript",
               "author": {
                 "@id": "#person"
@@ -625,11 +625,11 @@
                 <p class="tagline">Instrumenting, measuring and fact-checking what models actually do</p>
                 <ul>
                     <li><a href="https://github.com/bmmmm/wallii">wallii</a> — append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.</li>
+                    <li><a href="https://github.com/bmmmm/comparereleaseii">comparereleaseii</a> — fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone. <a href="https://bmmmm.github.io/comparereleaseii/demo/">live</a></li>
                     <li><a href="https://github.com/bmmmm/claudii">claudii</a> — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons. <a href="https://bmmmm.github.io/claudii/">live</a></li>
-                    <li><a href="https://github.com/bmmmm/check0r3000">check0r3000</a> — LLM extraction of comparable facts out of insurance terms, with a model benchmark built into the tool.</li>
-                    <li><a href="https://github.com/bmmmm/bumpii">bumpii</a> — read what actually changed in the tools you run, judged against how you actually use them.</li>
+                    <li><a href="https://github.com/bmmmm/check0r3000">check0r3000</a> — LLM extraction of comparable facts out of insurance terms, benchmarked against golden files. Finding so far: what you feed the model matters more than which model.</li>
+                    <li><a href="https://github.com/bmmmm/bumpii">bumpii</a> — reads what changed in the tools you run and keeps only what touches the features you use.</li>
                     <li><a href="https://github.com/bmmmm/gateii">gateii</a> — minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana.</li>
-                    <li><a href="https://github.com/bmmmm/comparereleaseii">comparereleaseii</a> — fact-check release notes against the actual code diff — GitHub, Forgejo, GitLab or any git clone. <a href="https://bmmmm.github.io/comparereleaseii/demo/">live</a></li>
                     <li><a href="https://github.com/bmmmm/cc-insomnii">cc-insomnii</a> — a bedtime-shaming statusline for Claude Code.</li>
                 </ul>
                 <h3>Backup, recovery & proof</h3>
@@ -643,9 +643,9 @@
                 <h3>Local-first web apps</h3>
                 <p class="tagline">Static pages that keep your data in your own browser</p>
                 <ul>
+                    <li><a href="https://github.com/bmmmm/kuvertii">kuvertii</a> — read what an email header says about you — who it was really addressed to, where the unsubscribe link leads. <a href="https://bmmmm.github.io/kuvertii/">live</a></li>
                     <li><a href="https://github.com/bmmmm/putzii">putzii</a> — cleaning schedule shared by capability link, with QR check-in. No backend at all. <a href="https://bmmmm.github.io/putzii/">live</a></li>
                     <li><a href="https://github.com/bmmmm/gymii">gymii</a> — floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device. <a href="https://bmmmm.github.io/gymii/">live</a></li>
-                    <li><a href="https://github.com/bmmmm/kuvertii">kuvertii</a> — read what an email header says about you — who it was really addressed to, where the unsubscribe link leads. <a href="https://bmmmm.github.io/kuvertii/">live</a></li>
                     <li><a href="https://github.com/bmmmm/musiclinkii">musiclinkii</a> — turn one music link into links for every streaming platform. <a href="https://bmmmm.github.io/musiclinkii/">live</a></li>
                     <li><a href="https://github.com/bmmmm/shieldchipiii">shieldchipiii</a> — stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory. <a href="https://bmmmm.github.io/shieldchipiii/">live</a></li>
                     <li><a href="https://github.com/bmmmm/app-icons-generator">app-icons-generator</a> — every iOS, macOS and watchOS icon size from one 1024px PNG — CLI and browser. <a href="https://bmmmm.github.io/app-icons-generator/">live</a></li>
