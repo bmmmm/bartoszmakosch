@@ -21,18 +21,18 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      - name: render project list, llms.txt and JSON-LD
+      - name: render project list, screen, llms.txt, feed.xml and JSON-LD
         run: .github/scripts/build-site.sh
 
       - name: commit only on a real change
         run: |
           set -euo pipefail
-          git add -A index.html llms.txt
+          git add -A index.html llms.txt feed.xml
           if git diff --cached --quiet; then
             echo "nothing changed — no commit"
             exit 0
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "chore(site): refresh project list, llms.txt and JSON-LD"
+          git commit -m "chore(site): refresh the generated project list, feed and screen"
           git push

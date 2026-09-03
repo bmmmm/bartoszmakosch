@@ -1,25 +1,30 @@
 #!/usr/bin/env bash
-# build-site.sh — render the visible project list, llms.txt and the JSON-LD
-# block from the profile feed.
+# build-site.sh — render everything on this site that comes from the profile
+# feed: the visible project list, the "recently pushed" line, two lines on the
+# drawn ASCII screen, llms.txt, feed.xml and the JSON-LD block.
 #
 # Source of truth is projects.json in the bmmmm/bmmmm repo, built there from
 # the curated categories plus live GitHub metadata. This page never curates a
 # second time: a project appears here because it appears there.
 #
-# The visible list, llms.txt and knowsAbout are rendered from the same feed in
-# one pass, on purpose. Metadata that claims more than the page shows a human
-# is cloaking, and the point of generating all three together is that they
-# cannot drift into it.
+# All outputs are rendered from the same feed in one pass, on purpose.
+# Metadata that claims more than the page shows a human is cloaking, and
+# generating everything together is what keeps the outputs from drifting
+# into it.
 #
-# URLs into this site are written relative, never absolute. JSON-LD resolves a
-# relative IRI against the document base, so the output is correct either way,
-# and the domain then never has to be spelled out in a mirrored repo.
+# URLs into this site are written relative, never absolute, and the domain is
+# never spelled out in this mirrored repo. Where a format needs an absolute
+# IRI (the Atom feed) the GitHub URLs from the feed serve as identifiers.
 set -euo pipefail
 
 FEED_URL="${FEED_URL:-https://raw.githubusercontent.com/bmmmm/bmmmm/main/projects.json}"
+# Permanent id of the Atom feed. Minted once; changing it makes every reader
+# treat the feed as a new one.
+FEED_UUID="bf88393a-ff9d-4e7f-abd8-b1a238cdc96f"
 root="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 index="$root/index.html"
 llms="$root/llms.txt"
+atom="$root/feed.xml"
 
 command -v jq >/dev/null || { echo "build-site: jq is required" >&2; exit 1; }
 
@@ -43,29 +48,13 @@ site_name="$(sed -n 's|.*<title>\(.*\)</title>.*|\1|p' "$index" | head -1)"
 [ -n "$site_name" ] || { echo "build-site: no <title> in index.html to take the name from" >&2; exit 1; }
 given_name="${site_name%% *}"
 
-# ── knowsAbout ──────────────────────────────────────────────────────────────
-# Every topic set on the listed repos, plus their languages, normalised and
-# deduped. No frequency threshold: it was tried and it selects for the wrong
-# thing here. Requiring a term on 3+ repos drops anthropic, claude-code, llm
-# and ai-agents — the strongest and most specific signals, each concentrated
-# in one or two projects — while four FreshRSS extensions push their shared
-# tags to the top. Frequency measures repetition, not competence.
-#
-# Every term is therefore already vouched for: it is a tag someone put on a
-# real repository. Normalisation only merges spellings of one thing, so that
-# the list does not read as machine-dumped (Go and golang, self-hosted and
-# selfhosted).
-jq -r '
-  def canon: ascii_downcase
-    | if . == "golang" then "go"
-      elif . == "vanilla-js" then "javascript"
-      elif . == "selfhosted" then "self-hosted"
-      else . end;
-  ([.categories[].projects[].topics[]?] + [.categories[].projects[].language // empty])
-  | map(canon) | unique | .[]
-' "$feed" > "$tmp/knows.txt"
+# Every project, newest push first, regardless of category. Used by the
+# "recently pushed" line, the screen and the feed.
+jq '[.categories[].projects[]] | sort_by(.pushed_at // .updated // "") | reverse' "$feed" > "$tmp/by-push.json"
 
 # ── visible list ────────────────────────────────────────────────────────────
+# One <li> per project with the date of its last push. A date is the cheapest
+# proof that a list is alive; without one, thirty entries read as a monument.
 jq -r '
   .categories[] |
   "                <h3>" + .title + "</h3>",
@@ -73,23 +62,62 @@ jq -r '
   "                <ul>",
   ( .projects[] |
     "                    <li><a href=\"" + .url + "\">" + .name + "</a> — " + .blurb
-    + (if .live then " <a href=\"" + .live + "\">live</a>" else "" end) + "</li>" ),
+    + (if .live then " <a href=\"" + .live + "\">live</a>" else "" end)
+    + (if .updated then " <time class=\"when\" datetime=\"" + .updated + "\">" + .updated + "</time>" else "" end)
+    + "</li>" ),
   "                </ul>"
 ' "$feed" > "$tmp/list.html"
 
+# ── recently pushed ─────────────────────────────────────────────────────────
+jq -r '
+  .[:5] |
+  "                <p class=\"recent\">Recently pushed: "
+  + ( map("<a href=\"" + .url + "\">" + .name + "</a> <time class=\"when\" datetime=\"" + (.updated // "") + "\">" + (.updated // "") + "</time>") | join(", ") )
+  + ".</p>"
+' "$tmp/by-push.json" > "$tmp/recent.html"
+
+# ── the drawn screen ────────────────────────────────────────────────────────
+# Two lines of the ASCII terminal are generated: the sites line and the
+# last-push line. The screen is 48 columns wide between its borders, three of
+# them indent; a line that renders one character too long breaks the drawing.
+# So every generated line is measured with its markup stripped, and the build
+# fails rather than ship a broken laptop. Generated text stays ASCII: the
+# measurement counts bytes, and the runner's locale is not a thing to depend on.
+screen_line() {  # <html> → the full <pre> line, padded out to the right border
+  local html="$1" visible len
+  visible="$(printf '%s' "$html" | sed -E 's/<[^>]*>//g; s/&amp;/\&/g; s/&lt;/</g; s/&gt;/>/g')"
+  len=${#visible}
+  if [ "$len" -gt 45 ]; then
+    echo "build-site: screen line is $len columns, max 45: $visible" >&2; exit 1
+  fi
+  printf '          ||   %s%*s||' "$html" $((45 - len)) ''
+}
+
+sites_html="$(jq -r '
+  (.sites // []) | map("<a href=\"" + .url + "\" target=\"_blank\" rel=\"noopener\">" + .name + "</a>") | join("  ")
+' "$feed")"
+[ -n "$sites_html" ] && sites_html="Sites@: $sites_html"
+sites_line="$(screen_line "$sites_html")"
+
+IFS=$'\t' read -r lp_name lp_url lp_date < <(jq -r '.[0] | [.name, .url, (.updated // "")] | @tsv' "$tmp/by-push.json")
+lastpush_line="$(screen_line "\$ last push: <a href=\"$lp_url\">$lp_name</a> $lp_date <span class=\"cursor\">_</span>")"
+
 # ── JSON-LD ─────────────────────────────────────────────────────────────────
-jq -n --slurpfile f "$feed" --rawfile knows "$tmp/knows.txt" --arg name "$site_name" '
-  ($f[0]) as $feed |
+# Person and WebSite only. Google has no rich result for SoftwareSourceCode,
+# and a knowsAbout list built from repo topics was tried: 188 terms, among
+# them "car" and "bonn", making up half the page. The five category titles
+# say what the page is about; the projects say the rest in visible text.
+jq -n --slurpfile f "$feed" --arg name "$site_name" '
   {
     "@context": "https://schema.org",
-    "@graph": ([
+    "@graph": [
       {
         "@type": "Person",
         "@id": "#person",
         "name": $name,
         "url": "/",
         "description": "Builds LLM and agent tooling, local-first web apps and small command-line tools, with an emphasis on measuring and verifying what software claims to do.",
-        "knowsAbout": ($knows | rtrimstr("\n") | split("\n")),
+        "knowsAbout": [$f[0].categories[].title],
         "sameAs": ["https://github.com/bmmmm"]
       },
       {
@@ -98,16 +126,7 @@ jq -n --slurpfile f "$feed" --rawfile knows "$tmp/knows.txt" --arg name "$site_n
         "url": "/",
         "author": { "@id": "#person" }
       }
-    ] + [
-      $feed.categories[].projects[] | {
-        "@type": "SoftwareSourceCode",
-        "name": .name,
-        "codeRepository": .url,
-        "description": .blurb,
-        "programmingLanguage": .language,
-        "author": { "@id": "#person" }
-      } | with_entries(select(.value != null))
-    ])
+    ]
   }' > "$tmp/ld.json"
 
 {
@@ -128,7 +147,8 @@ jq -n --slurpfile f "$feed" --rawfile knows "$tmp/knows.txt" --arg name "$site_n
   echo "> verify rather than assert."
   echo
   echo "This file lists the same projects the page shows, generated from the same"
-  echo "source. Source code for all of them: https://github.com/bmmmm"
+  echo "source, with the date of each project's last push. Source code for all of"
+  echo "them: https://github.com/bmmmm"
   echo
   jq -r '
     .categories[] |
@@ -137,21 +157,61 @@ jq -n --slurpfile f "$feed" --rawfile knows "$tmp/knows.txt" --arg name "$site_n
     ( .projects[] |
       "- [" + .name + "](" + .url + "): " + .blurb
       + (if .live then " Live: " + .live else "" end)
-      + (if .language then " (" + .language + ")" else "" end) ),
+      + " (" + ([.language, (if .updated then "last push " + .updated else null end)] | map(select(. != null)) | join(", ")) + ")" ),
     ""
   ' "$feed"
   echo "## Contact"
   echo
   echo "- [Legal notice and privacy policy](disclaimer.html)"
   echo "- [PGP key](pgp.html)"
+  echo "- [Atom feed of recent pushes](feed.xml)"
 } > "$llms"
 
-# ── splice both blocks into index.html ──────────────────────────────────────
-for marker in jsonld projects; do
+# ── feed.xml ────────────────────────────────────────────────────────────────
+# One entry per project. The entry id carries the date of the last push, so a
+# project that is pushed to again shows up in a reader again — the feed is an
+# activity stream, not a catalogue. Given name only, same reason as llms.txt.
+#
+# Atom wants absolute IRIs for ids. The entries use their GitHub URLs; the
+# feed itself uses a fixed urn:uuid, minted once for this feed, so that no
+# line here has to spell out the site's own domain.
+feed_id="urn:uuid:$FEED_UUID"
+jq -r --arg owner "$(jq -r '.owner // "bmmmm"' "$feed")" --arg id "$feed_id" --arg name "$given_name" '
+  def esc: @html;
+  def when: .pushed_at // ((.updated // "1970-01-01") + "T00:00:00Z");
+  "<?xml version=\"1.0\" encoding=\"utf-8\"?>",
+  "<feed xmlns=\"http://www.w3.org/2005/Atom\">",
+  "  <title>" + ($name | esc) + ": recently pushed projects</title>",
+  "  <subtitle>One entry per project, renewed whenever it is pushed to. Source for all of them: https://github.com/" + $owner + "</subtitle>",
+  "  <link href=\"https://github.com/" + $owner + "\"/>",
+  "  <id>" + $id + "</id>",
+  "  <updated>" + (.[0] | when) + "</updated>",
+  "  <author><name>" + ($name | esc) + "</name></author>",
+  ( .[] |
+    "  <entry>",
+    "    <title>" + ((.name + " — " + .blurb) | esc) + "</title>",
+    "    <link href=\"" + (.url | esc) + "\"/>",
+    "    <id>" + (.url | esc) + "#" + (.updated // "") + "</id>",
+    "    <updated>" + when + "</updated>",
+    "    <summary>" + (.blurb | esc) + "</summary>",
+    "    <content type=\"text\">" + ((.detail // .blurb) | esc) + "</content>",
+    "  </entry>" ),
+  "</feed>"
+' "$tmp/by-push.json" > "$atom"
+
+# ── splice into index.html ──────────────────────────────────────────────────
+# Block markers stand on their own lines and enclose whole lines. Inline
+# markers sit on one line inside the <pre>, where an extra line would render
+# as a blank row on the screen.
+for marker in jsonld recent projects; do
   grep -q "<!-- $marker:start -->" "$index" || {
     echo "build-site: no $marker:start marker in index.html" >&2; exit 1; }
   grep -q "<!-- $marker:end -->" "$index" || {
     echo "build-site: no $marker:end marker in index.html" >&2; exit 1; }
+done
+for marker in sites lastpush; do
+  grep -q "<!-- $marker:start -->.*<!-- $marker:end -->" "$index" || {
+    echo "build-site: no inline $marker markers in index.html" >&2; exit 1; }
 done
 
 splice() {  # <marker> <content-file>
@@ -167,7 +227,22 @@ splice() {  # <marker> <content-file>
   mv "$tmp/index.html" "$index"
 }
 
-splice jsonld "$tmp/ld.html"
-splice projects "$tmp/list.html"
+splice_inline() {  # <marker> <html> — replaces what stands between the markers on their line
+  awk -v marker="$1" -v html="$2" '
+    BEGIN { s = "<!-- " marker ":start -->"; e = "<!-- " marker ":end -->" }
+    index($0, s) && index($0, e) {
+      i = index($0, s); j = index($0, e)
+      $0 = substr($0, 1, i - 1) s html e substr($0, j + length(e))
+    }
+    { print }
+  ' "$index" > "$tmp/index.html"
+  mv "$tmp/index.html" "$index"
+}
 
-echo "build-site: $count projects, $(wc -l < "$tmp/knows.txt" | tr -d ' ') knowsAbout terms"
+splice jsonld "$tmp/ld.html"
+splice recent "$tmp/recent.html"
+splice projects "$tmp/list.html"
+splice_inline sites "$sites_line"
+splice_inline lastpush "$lastpush_line"
+
+echo "build-site: $count projects, last push $lp_name $lp_date"
