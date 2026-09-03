@@ -168,6 +168,12 @@
     <body>
         <div class="container">
             <h1>Bartosz Makosch</h1>
+            <!-- The outbound links here carry rel="noopener" and deliberately
+                 NOT "noreferrer": bio.link is meant to see that the visit came
+                 from this page, which is the whole reason its line is here.
+                 noopener only nulls window.opener; noreferrer would also strip
+                 the Referer header and blind that. The default referrer policy
+                 sends the origin, not the path, which is all this page has. -->
             <div class="ascii-wrapper">
                 <pre>
           +--------------------------------------------------+
@@ -179,6 +185,7 @@
           ||   Mail@:<span class="font-color">~$pqo</span    > <a href="mailto:hi@brtsz.de">hi@brtsz.de</a> <span class="font-color"><           .com</span>     ||
           ||   <span class="font-color">.i.</span>                             <a href="pgp.html" target="_blank">PGP-KEY</a>      ||
           ||   <span class="font-color">..i</span>                                          ||
+          ||   Links@:<span class="font-color">~$tw</span    > <a href="https://bio.link/bartosz" target="_blank" rel="noopener">bio.link/bartosz</a><span class="font-color"> a      com     </span> ||
 <!-- sites:start -->          ||   Sites@: <a href="https://bmako.de" target="_blank" rel="noopener">bmako.de</a>  <a href="https://bitcircus101.de" target="_blank" rel="noopener">bitcircus101.de</a>            ||<!-- sites:end -->
           ||   <span class="font-color">I..</span>                          (:              ||
 <!-- lastpush:start -->          ||   $ last push: <a href="https://github.com/bmmmm/wallii">wallii</a> 2026-09-03 <span class="cursor">_</span>             ||<!-- lastpush:end -->
