@@ -27,7 +27,7 @@ jobs:
       - name: commit only on a real change
         run: |
           set -euo pipefail
-          git add -A index.html llms.txt feed.xml
+          git add -A index.html llms.txt feed.xml sitemap.xml
           if git diff --cached --quiet; then
             echo "nothing changed — no commit"
             exit 0

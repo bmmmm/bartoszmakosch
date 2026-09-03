@@ -199,6 +199,33 @@ jq -r --arg owner "$(jq -r '.owner // "bmmmm"' "$feed")" --arg id "$feed_id" --a
   "</feed>"
 ' "$tmp/by-push.json" > "$atom"
 
+# ── sitemap.xml ─────────────────────────────────────────────────────────────
+# Three pages do not need a sitemap for a crawler to FIND them — the front page
+# links both others. It exists for lastmod: this page is rebuilt whenever a
+# project is pushed to, and without a date a crawler has no way to learn that
+# except by fetching it again.
+#
+# So only "/" carries a lastmod, and it is the real one — the newest push in
+# the feed. The other two get none: the runner checks out shallow, so their
+# commit dates are not available here, and a lastmod that is guessed is worse
+# than none. Crawlers learn to distrust the field, and then it is worth nothing
+# on the page where it was true.
+#
+# The absolute URL the protocol requires is read out of the committed canonical
+# link, so the domain still never appears in this script.
+site_url="$(sed -n 's|.*<link rel="canonical" href="\([^"]*\)".*|\1|p' "$index" | head -1)"
+[ -n "$site_url" ] || { echo "build-site: no canonical link in index.html to take the site URL from" >&2; exit 1; }
+site_url="${site_url%/}"
+
+{
+  echo '<?xml version="1.0" encoding="utf-8"?>'
+  echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+  printf '  <url><loc>%s/</loc><lastmod>%s</lastmod></url>\n' "$site_url" "$lp_date"
+  printf '  <url><loc>%s/disclaimer</loc></url>\n' "$site_url"
+  printf '  <url><loc>%s/pgp</loc></url>\n' "$site_url"
+  echo '</urlset>'
+} > "$root/sitemap.xml"
+
 # ── splice into index.html ──────────────────────────────────────────────────
 # Block markers stand on their own lines and enclose whole lines. Inline
 # markers sit on one line inside the <pre>, where an extra line would render

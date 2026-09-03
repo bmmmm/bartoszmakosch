@@ -17,3 +17,8 @@
 User-agent: *
 Content-Signal: search=yes,ai-train=no,use=reference
 Allow: /
+
+# Generated together with the page, from the same feed. Only "/" carries a
+# lastmod, and it is the real date of the newest push — the other two pages
+# get none rather than a guessed one.
+Sitemap: https://bartoszmakosch.com/sitemap.xml
