@@ -4,246 +4,246 @@
   <subtitle>One entry per project, renewed whenever it is pushed to. Source for all of them: https://github.com/bmmmm</subtitle>
   <link href="https://github.com/bmmmm"/>
   <id>urn:uuid:bf88393a-ff9d-4e7f-abd8-b1a238cdc96f</id>
-  <updated>2026-09-02T07:53:48Z</updated>
+  <updated>2026-09-03T02:50:01Z</updated>
   <author><name>Bartosz</name></author>
+  <entry>
+    <title>wallii — append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.</title>
+    <link href="https://github.com/bmmmm/wallii"/>
+    <id>https://github.com/bmmmm/wallii#2026-09-03</id>
+    <updated>2026-09-03T02:50:01Z</updated>
+    <summary>append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.</summary>
+    <content type="text">An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.</content>
+  </entry>
+  <entry>
+    <title>claudii — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.</title>
+    <link href="https://github.com/bmmmm/claudii"/>
+    <id>https://github.com/bmmmm/claudii#2026-09-03</id>
+    <updated>2026-09-03T02:30:33Z</updated>
+    <summary>statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.</summary>
+    <content type="text">A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell.</content>
+  </entry>
+  <entry>
+    <title>pegel-visual — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</title>
+    <link href="https://github.com/bmmmm/pegel-visual"/>
+    <id>https://github.com/bmmmm/pegel-visual#2026-09-03</id>
+    <updated>2026-09-03T02:29:56Z</updated>
+    <summary>live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</summary>
+    <content type="text">Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.</content>
+  </entry>
+  <entry>
+    <title>bumpii — reads what changed in the tools you run and keeps only what touches the features you use.</title>
+    <link href="https://github.com/bmmmm/bumpii"/>
+    <id>https://github.com/bmmmm/bumpii#2026-09-03</id>
+    <updated>2026-09-03T01:14:07Z</updated>
+    <summary>reads what changed in the tools you run and keeps only what touches the features you use.</summary>
+    <content type="text">Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.</content>
+  </entry>
+  <entry>
+    <title>epcii — EPC QR code (GiroCode) generator — one static binary with its own QR encoder core.</title>
+    <link href="https://github.com/bmmmm/epcii"/>
+    <id>https://github.com/bmmmm/epcii#2026-09-03</id>
+    <updated>2026-09-03T00:32:21Z</updated>
+    <summary>EPC QR code (GiroCode) generator — one static binary with its own QR encoder core.</summary>
+    <content type="text">EPC QR code (GiroCode) generator — a single static binary with its own QR encoder core rather than a dependency tree, so a payment code can be generated on a machine you do not want to install anything on.</content>
+  </entry>
+  <entry>
+    <title>how-small-can-we-go — trust-golf: one champion per task, dethroned by needing less trust. Measured, never claimed.</title>
+    <link href="https://github.com/bmmmm/how-small-can-we-go"/>
+    <id>https://github.com/bmmmm/how-small-can-we-go#2026-09-03</id>
+    <updated>2026-09-03T00:31:48Z</updated>
+    <summary>trust-golf: one champion per task, dethroned by needing less trust. Measured, never claimed.</summary>
+    <content type="text">A trust-golf arena: one champion per task, dethroned by needing less trust — fewer third-party bytes, fewer dangerous constructs. Every entry is measured against the same surface metric, never self-declared, and the current champion is whoever survived the last challenge.</content>
+  </entry>
+  <entry>
+    <title>gymii — floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.</title>
+    <link href="https://github.com/bmmmm/gymii"/>
+    <id>https://github.com/bmmmm/gymii#2026-09-03</id>
+    <updated>2026-09-03T00:31:44Z</updated>
+    <summary>floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.</summary>
+    <content type="text">Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.</content>
+  </entry>
+  <entry>
+    <title>check0r3000 — LLM extraction of comparable facts out of insurance terms, benchmarked against golden files. Finding so far: what you feed the model matters more than which model.</title>
+    <link href="https://github.com/bmmmm/check0r3000"/>
+    <id>https://github.com/bmmmm/check0r3000#2026-09-03</id>
+    <updated>2026-09-03T00:25:37Z</updated>
+    <summary>LLM extraction of comparable facts out of insurance terms, benchmarked against golden files. Finding so far: what you feed the model matters more than which model.</summary>
+    <content type="text">Extracts comparable facts out of German insurance terms (AVB), ranks them by quality and tracks prices over time — an entire market in one terminal. Ships with its own benchmark: golden files per line of business, scored on faithfulness, schema validity, hallucinations and coverage, because an extraction pipeline whose accuracy you have not measured is a rumour. Finding so far: what you feed the model matters more than which model — on one contract a local 20B model scored 100 where Opus scored 57, same input.</content>
+  </entry>
+  <entry>
+    <title>comparereleaseii — fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.</title>
+    <link href="https://github.com/bmmmm/comparereleaseii"/>
+    <id>https://github.com/bmmmm/comparereleaseii#2026-09-03</id>
+    <updated>2026-09-03T00:13:51Z</updated>
+    <summary>fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.</summary>
+    <content type="text">Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?</content>
+  </entry>
+  <entry>
+    <title>ShareViaQRCode — a large QR code for the current article, so a phone can pick the link off the screen.</title>
+    <link href="https://github.com/bmmmm/xExtension-ShareViaQRCode"/>
+    <id>https://github.com/bmmmm/xExtension-ShareViaQRCode#2026-09-02</id>
+    <updated>2026-09-02T22:49:53Z</updated>
+    <summary>a large QR code for the current article, so a phone can pick the link off the screen.</summary>
+    <content type="text">Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.</content>
+  </entry>
+  <entry>
+    <title>NoteDrop — drop notes and links on one device, copy them on another with one click.</title>
+    <link href="https://github.com/bmmmm/xExtension-NoteDrop"/>
+    <id>https://github.com/bmmmm/xExtension-NoteDrop#2026-09-02</id>
+    <updated>2026-09-02T22:49:50Z</updated>
+    <summary>drop notes and links on one device, copy them on another with one click.</summary>
+    <content type="text">Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.</content>
+  </entry>
+  <entry>
+    <title>ClickHistory — keeps a history of the article links you actually opened.</title>
+    <link href="https://github.com/bmmmm/xExtension-ClickHistory"/>
+    <id>https://github.com/bmmmm/xExtension-ClickHistory#2026-09-02</id>
+    <updated>2026-09-02T22:49:46Z</updated>
+    <summary>keeps a history of the article links you actually opened.</summary>
+    <content type="text">Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns &quot;I read something about this last month&quot; into a searchable list.</content>
+  </entry>
+  <entry>
+    <title>ExitReaderView — a floating button to leave the reading view in one click.</title>
+    <link href="https://github.com/bmmmm/xExtension-ExitReaderView"/>
+    <id>https://github.com/bmmmm/xExtension-ExitReaderView#2026-09-02</id>
+    <updated>2026-09-02T22:44:55Z</updated>
+    <summary>a floating button to leave the reading view in one click.</summary>
+    <content type="text">Adds a floating button to leave the reading view in one click. Nine commits, and it fixes the thing that annoyed me daily.</content>
+  </entry>
+  <entry>
+    <title>youtubehistii — local YouTube watch-history analyzer — topics, and consume vs. learn. Fully on-device.</title>
+    <link href="https://github.com/bmmmm/youtubehistii"/>
+    <id>https://github.com/bmmmm/youtubehistii#2026-09-02</id>
+    <updated>2026-09-02T22:42:19Z</updated>
+    <summary>local YouTube watch-history analyzer — topics, and consume vs. learn. Fully on-device.</summary>
+    <content type="text">Analyses your YouTube watch history locally — topics, and the split between consuming and learning. Fully on-device, because handing a full viewing history to a third party to be told how you spend your evenings is a poor trade.</content>
+  </entry>
+  <entry>
+    <title>vpnii — VPN status in the zsh prompt, on top of WireGuard and Tailscale.</title>
+    <link href="https://github.com/bmmmm/vpnii"/>
+    <id>https://github.com/bmmmm/vpnii#2026-09-02</id>
+    <updated>2026-09-02T22:42:00Z</updated>
+    <summary>VPN status in the zsh prompt, on top of WireGuard and Tailscale.</summary>
+    <content type="text">VPN status indicator for zsh plus a small CLI on top of WireGuard and Tailscale. Answers &quot;am I actually on the tunnel right now&quot; in the prompt, where the question comes up.</content>
+  </entry>
   <entry>
     <title>stattii — attestation over an event calendar — cancellations propagate outward with delivery proof.</title>
     <link href="https://github.com/bmmmm/stattii"/>
     <id>https://github.com/bmmmm/stattii#2026-09-02</id>
-    <updated>2026-09-02T07:53:48Z</updated>
+    <updated>2026-09-02T22:41:54Z</updated>
     <summary>attestation over an event calendar — cancellations propagate outward with delivery proof.</summary>
     <content type="text">An attestation layer over an event calendar. Responsible people confirm or cancel through tokenised links; a cancellation propagates outward to everyone downstream, with delivery proof at each hop. Built for the case where &quot;I never got the message&quot; has consequences.</content>
   </entry>
   <entry>
-    <title>kuvertii — read what an email header says about you — who it was really addressed to, where the unsubscribe link leads.</title>
-    <link href="https://github.com/bmmmm/kuvertii"/>
-    <id>https://github.com/bmmmm/kuvertii#2026-09-02</id>
-    <updated>2026-09-02T07:47:50Z</updated>
-    <summary>read what an email header says about you — who it was really addressed to, where the unsubscribe link leads.</summary>
-    <content type="text">Paste an email header and read what it says about you: who the message was really addressed to, how that address was hidden from the other recipients, and where the unsubscribe link actually leads. Runs entirely client-side — a tool about privacy that uploaded your mail headers would be a joke.</content>
+    <title>shieldchipiii — stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory.</title>
+    <link href="https://github.com/bmmmm/shieldchipiii"/>
+    <id>https://github.com/bmmmm/shieldchipiii#2026-09-02</id>
+    <updated>2026-09-02T22:41:48Z</updated>
+    <summary>stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory.</summary>
+    <content type="text">A stone-chip logbook for your car windshield: photograph and date every chip, so the insurance conversation later has a record instead of a memory. Local-only web app plus a terminal CLI, DE/EN.</content>
+  </entry>
+  <entry>
+    <title>revertii — update a service with the way back built in: snapshot, dead man&apos;s switch, health-check, revert.</title>
+    <link href="https://github.com/bmmmm/revertii"/>
+    <id>https://github.com/bmmmm/revertii#2026-09-02</id>
+    <updated>2026-09-02T22:41:41Z</updated>
+    <summary>update a service with the way back built in: snapshot, dead man&apos;s switch, health-check, revert.</summary>
+    <content type="text">Updates a service with the way back built in: snapshot, arm a dead man&apos;s switch, apply, health-check, and revert automatically if it does not come back. The switch is armed before the change, not after — an update that hangs is the case a manual rollback never covers.</content>
+  </entry>
+  <entry>
+    <title>pwdtintii — the terminal background takes its colour from the directory you are in. zsh, bash, fish, tmux-aware.</title>
+    <link href="https://github.com/bmmmm/pwdtintii"/>
+    <id>https://github.com/bmmmm/pwdtintii#2026-09-02</id>
+    <updated>2026-09-02T22:41:33Z</updated>
+    <summary>the terminal background takes its colour from the directory you are in. zsh, bash, fish, tmux-aware.</summary>
+    <content type="text">The terminal background takes its colour from the directory you are standing in, via OSC 11 and tmux-aware. The point is not decoration: production and staging stop looking identical at 2am.</content>
   </entry>
   <entry>
     <title>putzii — cleaning schedule shared by capability link, with QR check-in. No backend at all.</title>
     <link href="https://github.com/bmmmm/putzii"/>
     <id>https://github.com/bmmmm/putzii#2026-09-02</id>
-    <updated>2026-09-02T07:25:56Z</updated>
+    <updated>2026-09-02T22:41:27Z</updated>
     <summary>cleaning schedule shared by capability link, with QR check-in. No backend at all.</summary>
     <content type="text">A cleaning schedule for a shared flat or office, handed around as a capability link and checked in by QR code on the wall. No accounts, no backend — the link is the permission.</content>
   </entry>
   <entry>
-    <title>wallii — append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.</title>
-    <link href="https://github.com/bmmmm/wallii"/>
-    <id>https://github.com/bmmmm/wallii#2026-09-02</id>
-    <updated>2026-09-02T07:15:11Z</updated>
-    <summary>append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.</summary>
-    <content type="text">An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.</content>
-  </entry>
-  <entry>
-    <title>pegel-visual — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</title>
-    <link href="https://github.com/bmmmm/pegel-visual"/>
-    <id>https://github.com/bmmmm/pegel-visual#2026-09-01</id>
-    <updated>2026-09-01T18:32:12Z</updated>
-    <summary>live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</summary>
-    <content type="text">Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.</content>
-  </entry>
-  <entry>
-    <title>comparereleaseii — fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.</title>
-    <link href="https://github.com/bmmmm/comparereleaseii"/>
-    <id>https://github.com/bmmmm/comparereleaseii#2026-09-01</id>
-    <updated>2026-09-01T17:10:51Z</updated>
-    <summary>fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.</summary>
-    <content type="text">Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?</content>
-  </entry>
-  <entry>
-    <title>claudii — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.</title>
-    <link href="https://github.com/bmmmm/claudii"/>
-    <id>https://github.com/bmmmm/claudii#2026-09-01</id>
-    <updated>2026-09-01T11:29:10Z</updated>
-    <summary>statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.</summary>
-    <content type="text">A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell.</content>
-  </entry>
-  <entry>
-    <title>check0r3000 — LLM extraction of comparable facts out of insurance terms, benchmarked against golden files. Finding so far: what you feed the model matters more than which model.</title>
-    <link href="https://github.com/bmmmm/check0r3000"/>
-    <id>https://github.com/bmmmm/check0r3000#2026-09-01</id>
-    <updated>2026-09-01T10:59:41Z</updated>
-    <summary>LLM extraction of comparable facts out of insurance terms, benchmarked against golden files. Finding so far: what you feed the model matters more than which model.</summary>
-    <content type="text">Extracts comparable facts out of German insurance terms (AVB), ranks them by quality and tracks prices over time — an entire market in one terminal. Ships with its own benchmark: golden files per line of business, scored on faithfulness, schema validity, hallucinations and coverage, because an extraction pipeline whose accuracy you have not measured is a rumour. Finding so far: what you feed the model matters more than which model — on one contract a local 20B model scored 100 where Opus scored 57, same input.</content>
-  </entry>
-  <entry>
-    <title>NoteDrop — drop notes and links on one device, copy them on another with one click.</title>
-    <link href="https://github.com/bmmmm/xExtension-NoteDrop"/>
-    <id>https://github.com/bmmmm/xExtension-NoteDrop#2026-09-01</id>
-    <updated>2026-09-01T06:41:07Z</updated>
-    <summary>drop notes and links on one device, copy them on another with one click.</summary>
-    <content type="text">Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.</content>
-  </entry>
-  <entry>
-    <title>gymii — floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.</title>
-    <link href="https://github.com/bmmmm/gymii"/>
-    <id>https://github.com/bmmmm/gymii#2026-09-01</id>
-    <updated>2026-09-01T02:21:57Z</updated>
-    <summary>floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.</summary>
-    <content type="text">Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.</content>
-  </entry>
-  <entry>
-    <title>bumpii — reads what changed in the tools you run and keeps only what touches the features you use.</title>
-    <link href="https://github.com/bmmmm/bumpii"/>
-    <id>https://github.com/bmmmm/bumpii#2026-09-01</id>
-    <updated>2026-09-01T01:58:07Z</updated>
-    <summary>reads what changed in the tools you run and keeps only what touches the features you use.</summary>
-    <content type="text">Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.</content>
-  </entry>
-  <entry>
-    <title>youtubehistii — local YouTube watch-history analyzer — topics, and consume vs. learn. Fully on-device.</title>
-    <link href="https://github.com/bmmmm/youtubehistii"/>
-    <id>https://github.com/bmmmm/youtubehistii#2026-08-31</id>
-    <updated>2026-08-31T23:55:00Z</updated>
-    <summary>local YouTube watch-history analyzer — topics, and consume vs. learn. Fully on-device.</summary>
-    <content type="text">Analyses your YouTube watch history locally — topics, and the split between consuming and learning. Fully on-device, because handing a full viewing history to a third party to be told how you spend your evenings is a poor trade.</content>
-  </entry>
-  <entry>
-    <title>epcii — EPC QR code (GiroCode) generator — one static binary with its own QR encoder core.</title>
-    <link href="https://github.com/bmmmm/epcii"/>
-    <id>https://github.com/bmmmm/epcii#2026-08-31</id>
-    <updated>2026-08-31T13:23:05Z</updated>
-    <summary>EPC QR code (GiroCode) generator — one static binary with its own QR encoder core.</summary>
-    <content type="text">EPC QR code (GiroCode) generator — a single static binary with its own QR encoder core rather than a dependency tree, so a payment code can be generated on a machine you do not want to install anything on.</content>
-  </entry>
-  <entry>
-    <title>ClickHistory — keeps a history of the article links you actually opened.</title>
-    <link href="https://github.com/bmmmm/xExtension-ClickHistory"/>
-    <id>https://github.com/bmmmm/xExtension-ClickHistory#2026-08-28</id>
-    <updated>2026-08-28T09:08:05Z</updated>
-    <summary>keeps a history of the article links you actually opened.</summary>
-    <content type="text">Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns &quot;I read something about this last month&quot; into a searchable list.</content>
-  </entry>
-  <entry>
-    <title>ShareViaQRCode — a large QR code for the current article, so a phone can pick the link off the screen.</title>
-    <link href="https://github.com/bmmmm/xExtension-ShareViaQRCode"/>
-    <id>https://github.com/bmmmm/xExtension-ShareViaQRCode#2026-08-25</id>
-    <updated>2026-08-25T18:45:55Z</updated>
-    <summary>a large QR code for the current article, so a phone can pick the link off the screen.</summary>
-    <content type="text">Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.</content>
-  </entry>
-  <entry>
-    <title>gateii — minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana.</title>
-    <link href="https://github.com/bmmmm/gateii"/>
-    <id>https://github.com/bmmmm/gateii#2026-08-23</id>
-    <updated>2026-08-23T17:23:50Z</updated>
-    <summary>minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana.</summary>
-    <content type="text">A minimal self-hosted proxy in front of LLM APIs. One place that sees every request, so latency, spend and failure rates are measurable instead of anecdotal.</content>
-  </entry>
-  <entry>
-    <title>pwdtintii — the terminal background takes its colour from the directory you are in. zsh, bash, fish, tmux-aware.</title>
-    <link href="https://github.com/bmmmm/pwdtintii"/>
-    <id>https://github.com/bmmmm/pwdtintii#2026-08-23</id>
-    <updated>2026-08-23T17:21:10Z</updated>
-    <summary>the terminal background takes its colour from the directory you are in. zsh, bash, fish, tmux-aware.</summary>
-    <content type="text">The terminal background takes its colour from the directory you are standing in, via OSC 11 and tmux-aware. The point is not decoration: production and staging stop looking identical at 2am.</content>
-  </entry>
-  <entry>
     <title>musiclinkii — turn one music link into links for every streaming platform.</title>
     <link href="https://github.com/bmmmm/musiclinkii"/>
-    <id>https://github.com/bmmmm/musiclinkii#2026-08-22</id>
-    <updated>2026-08-22T03:07:10Z</updated>
+    <id>https://github.com/bmmmm/musiclinkii#2026-09-02</id>
+    <updated>2026-09-02T22:41:20Z</updated>
     <summary>turn one music link into links for every streaming platform.</summary>
     <content type="text">Turn one music link into links for every streaming platform, so a recommendation stops depending on what the other person subscribes to. Fully static.</content>
   </entry>
   <entry>
-    <title>ExitReaderView — a floating button to leave the reading view in one click.</title>
-    <link href="https://github.com/bmmmm/xExtension-ExitReaderView"/>
-    <id>https://github.com/bmmmm/xExtension-ExitReaderView#2026-08-18</id>
-    <updated>2026-08-18T19:03:38Z</updated>
-    <summary>a floating button to leave the reading view in one click.</summary>
-    <content type="text">Adds a floating button to leave the reading view in one click. Nine commits, and it fixes the thing that annoyed me daily.</content>
-  </entry>
-  <entry>
-    <title>how-small-can-we-go — trust-golf: one champion per task, dethroned by needing less trust. Measured, never claimed.</title>
-    <link href="https://github.com/bmmmm/how-small-can-we-go"/>
-    <id>https://github.com/bmmmm/how-small-can-we-go#2026-08-10</id>
-    <updated>2026-08-10T06:58:08Z</updated>
-    <summary>trust-golf: one champion per task, dethroned by needing less trust. Measured, never claimed.</summary>
-    <content type="text">A trust-golf arena: one champion per task, dethroned by needing less trust — fewer third-party bytes, fewer dangerous constructs. Every entry is measured against the same surface metric, never self-declared, and the current champion is whoever survived the last challenge.</content>
-  </entry>
-  <entry>
-    <title>baaackaaab — one-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store.</title>
-    <link href="https://github.com/bmmmm/baaackaaab"/>
-    <id>https://github.com/bmmmm/baaackaaab#2026-08-06</id>
-    <updated>2026-08-06T11:12:33Z</updated>
-    <summary>one-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store.</summary>
-    <content type="text">One-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store. One-way is the whole design — the machine holding the source can write new snapshots but cannot delete old ones, so an attacker with full control of it still cannot reach into yesterday.</content>
-  </entry>
-  <entry>
-    <title>vpnii — VPN status in the zsh prompt, on top of WireGuard and Tailscale.</title>
-    <link href="https://github.com/bmmmm/vpnii"/>
-    <id>https://github.com/bmmmm/vpnii#2026-08-05</id>
-    <updated>2026-08-05T21:35:09Z</updated>
-    <summary>VPN status in the zsh prompt, on top of WireGuard and Tailscale.</summary>
-    <content type="text">VPN status indicator for zsh plus a small CLI on top of WireGuard and Tailscale. Answers &quot;am I actually on the tunnel right now&quot; in the prompt, where the question comes up.</content>
-  </entry>
-  <entry>
-    <title>revertii — update a service with the way back built in: snapshot, dead man&apos;s switch, health-check, revert.</title>
-    <link href="https://github.com/bmmmm/revertii"/>
-    <id>https://github.com/bmmmm/revertii#2026-08-04</id>
-    <updated>2026-08-04T08:58:10Z</updated>
-    <summary>update a service with the way back built in: snapshot, dead man&apos;s switch, health-check, revert.</summary>
-    <content type="text">Updates a service with the way back built in: snapshot, arm a dead man&apos;s switch, apply, health-check, and revert automatically if it does not come back. The switch is armed before the change, not after — an update that hangs is the case a manual rollback never covers.</content>
-  </entry>
-  <entry>
-    <title>cc-insomnii — a bedtime-shaming statusline for Claude Code.</title>
-    <link href="https://github.com/bmmmm/cc-insomnii"/>
-    <id>https://github.com/bmmmm/cc-insomnii#2026-07-27</id>
-    <updated>2026-07-27T19:22:00Z</updated>
-    <summary>a bedtime-shaming statusline for Claude Code.</summary>
-    <content type="text">A bedtime-shaming statusline for Claude Code. Small, and it works.</content>
-  </entry>
-  <entry>
-    <title>audioctl — switch macOS output and input devices, volume, mute and sample rate from the CLI.</title>
-    <link href="https://github.com/bmmmm/audioctl"/>
-    <id>https://github.com/bmmmm/audioctl#2026-07-27</id>
-    <updated>2026-07-27T17:02:53Z</updated>
-    <summary>switch macOS output and input devices, volume, mute and sample rate from the CLI.</summary>
-    <content type="text">Control macOS audio from the CLI: switch the default output and input device, volume, mute and sample rate, and cycle outputs with a global hotkey — the things the system UI makes you click through.</content>
+    <title>kuvertii — read what an email header says about you — who it was really addressed to, where the unsubscribe link leads.</title>
+    <link href="https://github.com/bmmmm/kuvertii"/>
+    <id>https://github.com/bmmmm/kuvertii#2026-09-02</id>
+    <updated>2026-09-02T22:41:13Z</updated>
+    <summary>read what an email header says about you — who it was really addressed to, where the unsubscribe link leads.</summary>
+    <content type="text">Paste an email header and read what it says about you: who the message was really addressed to, how that address was hidden from the other recipients, and where the unsubscribe link actually leads. Runs entirely client-side — a tool about privacy that uploaded your mail headers would be a joke.</content>
   </entry>
   <entry>
     <title>KeebLock — locks the keyboard while you clean it, with animations worth the thirty seconds.</title>
     <link href="https://github.com/bmmmm/KeebLock"/>
-    <id>https://github.com/bmmmm/KeebLock#2026-07-20</id>
-    <updated>2026-07-20T07:45:57Z</updated>
+    <id>https://github.com/bmmmm/KeebLock#2026-09-02</id>
+    <updated>2026-09-02T22:41:06Z</updated>
     <summary>locks the keyboard while you clean it, with animations worth the thirty seconds.</summary>
     <content type="text">Locks the keyboard while you wipe it down, with animations worth watching for the thirty seconds it takes.</content>
   </entry>
   <entry>
-    <title>shieldchipiii — stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory.</title>
-    <link href="https://github.com/bmmmm/shieldchipiii"/>
-    <id>https://github.com/bmmmm/shieldchipiii#2026-07-18</id>
-    <updated>2026-07-18T00:53:17Z</updated>
-    <summary>stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory.</summary>
-    <content type="text">A stone-chip logbook for your car windshield: photograph and date every chip, so the insurance conversation later has a record instead of a memory. Local-only web app plus a terminal CLI, DE/EN.</content>
-  </entry>
-  <entry>
-    <title>app-icons-generator — every iOS, macOS and watchOS icon size from one 1024px PNG — CLI and browser.</title>
-    <link href="https://github.com/bmmmm/app-icons-generator"/>
-    <id>https://github.com/bmmmm/app-icons-generator#2026-07-18</id>
-    <updated>2026-07-18T00:18:00Z</updated>
-    <summary>every iOS, macOS and watchOS icon size from one 1024px PNG — CLI and browser.</summary>
-    <content type="text">Generates every iOS, macOS and watchOS app icon size from one 1024px PNG. Available as a CLI and as a client-side browser tool — the browser version never uploads the image.</content>
-  </entry>
-  <entry>
-    <title>git-times-live — a standalone live broadcast TV channel for your git activity.</title>
-    <link href="https://github.com/bmmmm/git-times-live"/>
-    <id>https://github.com/bmmmm/git-times-live#2026-07-17</id>
-    <updated>2026-07-17T23:27:57Z</updated>
-    <summary>a standalone live broadcast TV channel for your git activity.</summary>
-    <content type="text">A standalone live broadcast TV channel for your git activity, generated from git-times. Exactly as useful as it sounds, and it runs.</content>
+    <title>gateii — minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana.</title>
+    <link href="https://github.com/bmmmm/gateii"/>
+    <id>https://github.com/bmmmm/gateii#2026-09-02</id>
+    <updated>2026-09-02T22:40:40Z</updated>
+    <summary>minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana.</summary>
+    <content type="text">A minimal self-hosted proxy in front of LLM APIs. One place that sees every request, so latency, spend and failure rates are measurable instead of anecdotal.</content>
   </entry>
   <entry>
     <title>db-wallet — drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.</title>
     <link href="https://github.com/bmmmm/db-wallet"/>
-    <id>https://github.com/bmmmm/db-wallet#2026-07-17</id>
-    <updated>2026-07-17T23:27:54Z</updated>
+    <id>https://github.com/bmmmm/db-wallet#2026-09-02</id>
+    <updated>2026-09-02T22:40:27Z</updated>
     <summary>drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.</summary>
     <content type="text">Drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.</content>
+  </entry>
+  <entry>
+    <title>audioctl — switch macOS output and input devices, volume, mute and sample rate from the CLI.</title>
+    <link href="https://github.com/bmmmm/audioctl"/>
+    <id>https://github.com/bmmmm/audioctl#2026-09-02</id>
+    <updated>2026-09-02T22:39:57Z</updated>
+    <summary>switch macOS output and input devices, volume, mute and sample rate from the CLI.</summary>
+    <content type="text">Control macOS audio from the CLI: switch the default output and input device, volume, mute and sample rate, and cycle outputs with a global hotkey — the things the system UI makes you click through.</content>
+  </entry>
+  <entry>
+    <title>git-times-live — a standalone live broadcast TV channel for your git activity.</title>
+    <link href="https://github.com/bmmmm/git-times-live"/>
+    <id>https://github.com/bmmmm/git-times-live#2026-09-02</id>
+    <updated>2026-09-02T20:11:54Z</updated>
+    <summary>a standalone live broadcast TV channel for your git activity.</summary>
+    <content type="text">A standalone live broadcast TV channel for your git activity, generated from git-times. Exactly as useful as it sounds, and it runs.</content>
+  </entry>
+  <entry>
+    <title>cc-insomnii — a bedtime-shaming statusline for Claude Code.</title>
+    <link href="https://github.com/bmmmm/cc-insomnii"/>
+    <id>https://github.com/bmmmm/cc-insomnii#2026-09-02</id>
+    <updated>2026-09-02T20:11:43Z</updated>
+    <summary>a bedtime-shaming statusline for Claude Code.</summary>
+    <content type="text">A bedtime-shaming statusline for Claude Code. Small, and it works.</content>
+  </entry>
+  <entry>
+    <title>baaackaaab — one-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store.</title>
+    <link href="https://github.com/bmmmm/baaackaaab"/>
+    <id>https://github.com/bmmmm/baaackaaab#2026-09-02</id>
+    <updated>2026-09-02T20:11:37Z</updated>
+    <summary>one-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store.</summary>
+    <content type="text">One-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store. One-way is the whole design — the machine holding the source can write new snapshots but cannot delete old ones, so an attacker with full control of it still cannot reach into yesterday.</content>
+  </entry>
+  <entry>
+    <title>app-icons-generator — every iOS, macOS and watchOS icon size from one 1024px PNG — CLI and browser.</title>
+    <link href="https://github.com/bmmmm/app-icons-generator"/>
+    <id>https://github.com/bmmmm/app-icons-generator#2026-09-02</id>
+    <updated>2026-09-02T20:11:33Z</updated>
+    <summary>every iOS, macOS and watchOS icon size from one 1024px PNG — CLI and browser.</summary>
+    <content type="text">Generates every iOS, macOS and watchOS app icon size from one 1024px PNG. Available as a CLI and as a client-side browser tool — the browser version never uploads the image.</content>
   </entry>
 </feed>
