@@ -5,6 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Bartosz Makosch</title>
         <link rel="icon" type="image/x-icon" href="fav.ico" />
+        <!-- Absolute on purpose, and the only place in the page that is. The
+             apex and the www host both answer 200, so a relative canonical
+             would resolve per host and name two pages instead of one. The
+             domain is public in the README already; the guarded value here
+             was never the domain. -->
+        <link rel="canonical" href="https://bartoszmakosch.com/" />
         <meta
             name="description"
             content="Computer engineer. Builds LLM and agent tooling, local-first web apps and small command-line tools, with an emphasis on measuring and verifying what software claims to do."
@@ -18,6 +24,11 @@
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Bartosz Makosch" />
         <meta property="og:type" content="website" />
+        <meta
+            property="og:title"
+            content="Bartosz Makosch — LLM &amp; agent tooling, local-first apps"
+        />
+        <meta property="og:url" content="https://bartoszmakosch.com/" />
         <meta
             property="og:description"
             content="Computer engineer. Builds LLM and agent tooling, local-first web apps and small command-line tools, with an emphasis on measuring and verifying what software claims to do."
@@ -168,7 +179,6 @@
           ||   Mail@:<span class="font-color">~$pqo</span    > <a href="mailto:hi@brtsz.de">hi@brtsz.de</a> <span class="font-color"><           .com</span>     ||
           ||   <span class="font-color">.i.</span>                             <a href="pgp.html" target="_blank">PGP-KEY</a>      ||
           ||   <span class="font-color">..i</span>                                          ||
-          ||   Links@:<span class="font-color">~$tw</span    > <a href="https://bio.link/bartosz" target="_blank">bio.link/bartosz</a><span class="font-color"> a      com     </span> ||
 <!-- sites:start -->          ||   Sites@: <a href="https://bmako.de" target="_blank" rel="noopener">bmako.de</a>  <a href="https://bitcircus101.de" target="_blank" rel="noopener">bitcircus101.de</a>            ||<!-- sites:end -->
           ||   <span class="font-color">I..</span>                          (:              ||
 <!-- lastpush:start -->          ||   $ last push: <a href="https://github.com/bmmmm/wallii">wallii</a> 2026-09-03 <span class="cursor">_</span>             ||<!-- lastpush:end -->
