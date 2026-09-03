@@ -65,6 +65,6 @@ Four small extensions for the reader I actually use every day.
 
 ## Contact
 
-- [Legal notice and privacy policy](disclaimer.html)
+- [Privacy policy and disclaimer](disclaimer.html)
 - [PGP key](pgp.html)
 - [Atom feed of recent pushes](feed.xml)

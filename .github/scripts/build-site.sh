@@ -162,7 +162,7 @@ jq -n --slurpfile f "$feed" --arg name "$site_name" '
   ' "$feed"
   echo "## Contact"
   echo
-  echo "- [Legal notice and privacy policy](disclaimer.html)"
+  echo "- [Privacy policy and disclaimer](disclaimer.html)"
   echo "- [PGP key](pgp.html)"
   echo "- [Atom feed of recent pushes](feed.xml)"
 } > "$llms"
