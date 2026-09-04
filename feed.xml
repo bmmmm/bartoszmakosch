@@ -4,13 +4,45 @@
   <subtitle>One entry per project, renewed whenever it is pushed to. Source for all of them: https://github.com/bmmmm</subtitle>
   <link href="https://github.com/bmmmm"/>
   <id>urn:uuid:bf88393a-ff9d-4e7f-abd8-b1a238cdc96f</id>
-  <updated>2026-09-03T02:50:01Z</updated>
+  <updated>2026-09-04T01:59:41Z</updated>
   <author><name>Bartosz</name></author>
+  <entry>
+    <title>pegel-visual — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</title>
+    <link href="https://github.com/bmmmm/pegel-visual"/>
+    <id>https://github.com/bmmmm/pegel-visual#2026-09-04</id>
+    <updated>2026-09-04T01:59:41Z</updated>
+    <summary>live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</summary>
+    <content type="text">Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.</content>
+  </entry>
+  <entry>
+    <title>epcii — EPC QR code (GiroCode) generator — one static binary with its own QR encoder core.</title>
+    <link href="https://github.com/bmmmm/epcii"/>
+    <id>https://github.com/bmmmm/epcii#2026-09-04</id>
+    <updated>2026-09-04T01:10:00Z</updated>
+    <summary>EPC QR code (GiroCode) generator — one static binary with its own QR encoder core.</summary>
+    <content type="text">EPC QR code (GiroCode) generator — a single static binary with its own QR encoder core rather than a dependency tree, so a payment code can be generated on a machine you do not want to install anything on.</content>
+  </entry>
+  <entry>
+    <title>musiclinkii — turn one music link into links for every streaming platform.</title>
+    <link href="https://github.com/bmmmm/musiclinkii"/>
+    <id>https://github.com/bmmmm/musiclinkii#2026-09-03</id>
+    <updated>2026-09-03T22:59:15Z</updated>
+    <summary>turn one music link into links for every streaming platform.</summary>
+    <content type="text">Turn one music link into links for every streaming platform, so a recommendation stops depending on what the other person subscribes to. Fully static.</content>
+  </entry>
+  <entry>
+    <title>stattii — attestation over an event calendar — cancellations propagate outward with delivery proof.</title>
+    <link href="https://github.com/bmmmm/stattii"/>
+    <id>https://github.com/bmmmm/stattii#2026-09-03</id>
+    <updated>2026-09-03T11:49:26Z</updated>
+    <summary>attestation over an event calendar — cancellations propagate outward with delivery proof.</summary>
+    <content type="text">An attestation layer over an event calendar. Responsible people confirm or cancel through tokenised links; a cancellation propagates outward to everyone downstream, with delivery proof at each hop. Built for the case where &quot;I never got the message&quot; has consequences.</content>
+  </entry>
   <entry>
     <title>wallii — append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.</title>
     <link href="https://github.com/bmmmm/wallii"/>
     <id>https://github.com/bmmmm/wallii#2026-09-03</id>
-    <updated>2026-09-03T02:50:01Z</updated>
+    <updated>2026-09-03T08:14:48Z</updated>
     <summary>append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.</summary>
     <content type="text">An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.</content>
   </entry>
@@ -23,28 +55,12 @@
     <content type="text">A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell.</content>
   </entry>
   <entry>
-    <title>pegel-visual — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</title>
-    <link href="https://github.com/bmmmm/pegel-visual"/>
-    <id>https://github.com/bmmmm/pegel-visual#2026-09-03</id>
-    <updated>2026-09-03T02:29:56Z</updated>
-    <summary>live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</summary>
-    <content type="text">Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.</content>
-  </entry>
-  <entry>
     <title>bumpii — reads what changed in the tools you run and keeps only what touches the features you use.</title>
     <link href="https://github.com/bmmmm/bumpii"/>
     <id>https://github.com/bmmmm/bumpii#2026-09-03</id>
     <updated>2026-09-03T01:14:07Z</updated>
     <summary>reads what changed in the tools you run and keeps only what touches the features you use.</summary>
     <content type="text">Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.</content>
-  </entry>
-  <entry>
-    <title>epcii — EPC QR code (GiroCode) generator — one static binary with its own QR encoder core.</title>
-    <link href="https://github.com/bmmmm/epcii"/>
-    <id>https://github.com/bmmmm/epcii#2026-09-03</id>
-    <updated>2026-09-03T00:32:21Z</updated>
-    <summary>EPC QR code (GiroCode) generator — one static binary with its own QR encoder core.</summary>
-    <content type="text">EPC QR code (GiroCode) generator — a single static binary with its own QR encoder core rather than a dependency tree, so a payment code can be generated on a machine you do not want to install anything on.</content>
   </entry>
   <entry>
     <title>how-small-can-we-go — trust-golf: one champion per task, dethroned by needing less trust. Measured, never claimed.</title>
@@ -127,14 +143,6 @@
     <content type="text">VPN status indicator for zsh plus a small CLI on top of WireGuard and Tailscale. Answers &quot;am I actually on the tunnel right now&quot; in the prompt, where the question comes up.</content>
   </entry>
   <entry>
-    <title>stattii — attestation over an event calendar — cancellations propagate outward with delivery proof.</title>
-    <link href="https://github.com/bmmmm/stattii"/>
-    <id>https://github.com/bmmmm/stattii#2026-09-02</id>
-    <updated>2026-09-02T22:41:54Z</updated>
-    <summary>attestation over an event calendar — cancellations propagate outward with delivery proof.</summary>
-    <content type="text">An attestation layer over an event calendar. Responsible people confirm or cancel through tokenised links; a cancellation propagates outward to everyone downstream, with delivery proof at each hop. Built for the case where &quot;I never got the message&quot; has consequences.</content>
-  </entry>
-  <entry>
     <title>shieldchipiii — stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory.</title>
     <link href="https://github.com/bmmmm/shieldchipiii"/>
     <id>https://github.com/bmmmm/shieldchipiii#2026-09-02</id>
@@ -165,14 +173,6 @@
     <updated>2026-09-02T22:41:27Z</updated>
     <summary>cleaning schedule shared by capability link, with QR check-in. No backend at all.</summary>
     <content type="text">A cleaning schedule for a shared flat or office, handed around as a capability link and checked in by QR code on the wall. No accounts, no backend — the link is the permission.</content>
-  </entry>
-  <entry>
-    <title>musiclinkii — turn one music link into links for every streaming platform.</title>
-    <link href="https://github.com/bmmmm/musiclinkii"/>
-    <id>https://github.com/bmmmm/musiclinkii#2026-09-02</id>
-    <updated>2026-09-02T22:41:20Z</updated>
-    <summary>turn one music link into links for every streaming platform.</summary>
-    <content type="text">Turn one music link into links for every streaming platform, so a recommendation stops depending on what the other person subscribes to. Fully static.</content>
   </entry>
   <entry>
     <title>kuvertii — read what an email header says about you — who it was really addressed to, where the unsubscribe link leads.</title>
