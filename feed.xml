@@ -4,15 +4,31 @@
   <subtitle>One entry per project, renewed whenever it is pushed to. Source for all of them: https://github.com/bmmmm</subtitle>
   <link href="https://github.com/bmmmm"/>
   <id>urn:uuid:bf88393a-ff9d-4e7f-abd8-b1a238cdc96f</id>
-  <updated>2026-09-04T01:59:41Z</updated>
+  <updated>2026-09-04T18:25:21Z</updated>
   <author><name>Bartosz</name></author>
   <entry>
     <title>pegel-visual — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</title>
     <link href="https://github.com/bmmmm/pegel-visual"/>
     <id>https://github.com/bmmmm/pegel-visual#2026-09-04</id>
-    <updated>2026-09-04T01:59:41Z</updated>
+    <updated>2026-09-04T18:25:21Z</updated>
     <summary>live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</summary>
     <content type="text">Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.</content>
+  </entry>
+  <entry>
+    <title>musiclinkii — turn one music link into links for every streaming platform.</title>
+    <link href="https://github.com/bmmmm/musiclinkii"/>
+    <id>https://github.com/bmmmm/musiclinkii#2026-09-04</id>
+    <updated>2026-09-04T15:16:08Z</updated>
+    <summary>turn one music link into links for every streaming platform.</summary>
+    <content type="text">Turn one music link into links for every streaming platform, so a recommendation stops depending on what the other person subscribes to. Fully static.</content>
+  </entry>
+  <entry>
+    <title>ClickHistory — keeps a history of the article links you actually opened.</title>
+    <link href="https://github.com/bmmmm/xExtension-ClickHistory"/>
+    <id>https://github.com/bmmmm/xExtension-ClickHistory#2026-09-04</id>
+    <updated>2026-09-04T09:08:10Z</updated>
+    <summary>keeps a history of the article links you actually opened.</summary>
+    <content type="text">Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns &quot;I read something about this last month&quot; into a searchable list.</content>
   </entry>
   <entry>
     <title>epcii — EPC QR code (GiroCode) generator — one static binary with its own QR encoder core.</title>
@@ -21,14 +37,6 @@
     <updated>2026-09-04T01:10:00Z</updated>
     <summary>EPC QR code (GiroCode) generator — one static binary with its own QR encoder core.</summary>
     <content type="text">EPC QR code (GiroCode) generator — a single static binary with its own QR encoder core rather than a dependency tree, so a payment code can be generated on a machine you do not want to install anything on.</content>
-  </entry>
-  <entry>
-    <title>musiclinkii — turn one music link into links for every streaming platform.</title>
-    <link href="https://github.com/bmmmm/musiclinkii"/>
-    <id>https://github.com/bmmmm/musiclinkii#2026-09-03</id>
-    <updated>2026-09-03T22:59:15Z</updated>
-    <summary>turn one music link into links for every streaming platform.</summary>
-    <content type="text">Turn one music link into links for every streaming platform, so a recommendation stops depending on what the other person subscribes to. Fully static.</content>
   </entry>
   <entry>
     <title>stattii — attestation over an event calendar — cancellations propagate outward with delivery proof.</title>
@@ -109,14 +117,6 @@
     <updated>2026-09-02T22:49:50Z</updated>
     <summary>drop notes and links on one device, copy them on another with one click.</summary>
     <content type="text">Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.</content>
-  </entry>
-  <entry>
-    <title>ClickHistory — keeps a history of the article links you actually opened.</title>
-    <link href="https://github.com/bmmmm/xExtension-ClickHistory"/>
-    <id>https://github.com/bmmmm/xExtension-ClickHistory#2026-09-02</id>
-    <updated>2026-09-02T22:49:46Z</updated>
-    <summary>keeps a history of the article links you actually opened.</summary>
-    <content type="text">Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns &quot;I read something about this last month&quot; into a searchable list.</content>
   </entry>
   <entry>
     <title>ExitReaderView — a floating button to leave the reading view in one click.</title>

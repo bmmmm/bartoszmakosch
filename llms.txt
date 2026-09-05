@@ -33,7 +33,7 @@ Systems that assume the failure already happened and stay useful anyway.
 
 Static pages that keep your data in your own browser.
 
-- [musiclinkii](https://github.com/bmmmm/musiclinkii): turn one music link into links for every streaming platform. Live: https://bmmmm.github.io/musiclinkii/ (JavaScript, last push 2026-09-03)
+- [musiclinkii](https://github.com/bmmmm/musiclinkii): turn one music link into links for every streaming platform. Live: https://bmmmm.github.io/musiclinkii/ (JavaScript, last push 2026-09-04)
 - [gymii](https://github.com/bmmmm/gymii): floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device. Live: https://bmmmm.github.io/gymii/ (JavaScript, last push 2026-09-03)
 - [shieldchipiii](https://github.com/bmmmm/shieldchipiii): stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory. Live: https://bmmmm.github.io/shieldchipiii/ (JavaScript, last push 2026-09-02)
 - [putzii](https://github.com/bmmmm/putzii): cleaning schedule shared by capability link, with QR check-in. No backend at all. Live: https://bmmmm.github.io/putzii/ (JavaScript, last push 2026-09-02)
@@ -58,9 +58,9 @@ Things that live in a shell, or in the menu bar next to it.
 
 Four small extensions for the reader I actually use every day.
 
+- [ClickHistory](https://github.com/bmmmm/xExtension-ClickHistory): keeps a history of the article links you actually opened. (PHP, last push 2026-09-04)
 - [ShareViaQRCode](https://github.com/bmmmm/xExtension-ShareViaQRCode): a large QR code for the current article, so a phone can pick the link off the screen. (JavaScript, last push 2026-09-02)
 - [NoteDrop](https://github.com/bmmmm/xExtension-NoteDrop): drop notes and links on one device, copy them on another with one click. (PHP, last push 2026-09-02)
-- [ClickHistory](https://github.com/bmmmm/xExtension-ClickHistory): keeps a history of the article links you actually opened. (PHP, last push 2026-09-02)
 - [ExitReaderView](https://github.com/bmmmm/xExtension-ExitReaderView): a floating button to leave the reading view in one click. (JavaScript, last push 2026-09-02)
 
 ## Contact
