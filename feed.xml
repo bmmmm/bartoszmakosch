@@ -4,39 +4,71 @@
   <subtitle>One entry per project, renewed whenever it is pushed to. Source for all of them: https://github.com/bmmmm</subtitle>
   <link href="https://github.com/bmmmm"/>
   <id>urn:uuid:bf88393a-ff9d-4e7f-abd8-b1a238cdc96f</id>
-  <updated>2026-09-05T22:56:33Z</updated>
+  <updated>2026-09-07T07:41:36Z</updated>
   <author><name>Bartosz</name></author>
-  <entry>
-    <title>wallii — append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.</title>
-    <link href="https://github.com/bmmmm/wallii"/>
-    <id>https://github.com/bmmmm/wallii#2026-09-05</id>
-    <updated>2026-09-05T22:56:33Z</updated>
-    <summary>append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.</summary>
-    <content type="text">An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.</content>
-  </entry>
   <entry>
     <title>pegel-visual — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</title>
     <link href="https://github.com/bmmmm/pegel-visual"/>
-    <id>https://github.com/bmmmm/pegel-visual#2026-09-05</id>
-    <updated>2026-09-05T22:55:42Z</updated>
+    <id>https://github.com/bmmmm/pegel-visual#2026-09-07</id>
+    <updated>2026-09-07T07:41:36Z</updated>
     <summary>live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</summary>
     <content type="text">Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.</content>
   </entry>
   <entry>
-    <title>musiclinkii — turn one music link into links for every streaming platform.</title>
-    <link href="https://github.com/bmmmm/musiclinkii"/>
-    <id>https://github.com/bmmmm/musiclinkii#2026-09-05</id>
-    <updated>2026-09-05T22:53:26Z</updated>
-    <summary>turn one music link into links for every streaming platform.</summary>
-    <content type="text">Turn one music link into links for every streaming platform, so a recommendation stops depending on what the other person subscribes to. Fully static.</content>
-  </entry>
-  <entry>
     <title>ClickHistory — keeps a history of the article links you actually opened.</title>
     <link href="https://github.com/bmmmm/xExtension-ClickHistory"/>
-    <id>https://github.com/bmmmm/xExtension-ClickHistory#2026-09-04</id>
-    <updated>2026-09-04T09:08:10Z</updated>
+    <id>https://github.com/bmmmm/xExtension-ClickHistory#2026-09-07</id>
+    <updated>2026-09-07T07:09:17Z</updated>
     <summary>keeps a history of the article links you actually opened.</summary>
     <content type="text">Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns &quot;I read something about this last month&quot; into a searchable list.</content>
+  </entry>
+  <entry>
+    <title>stattii — attestation over an event calendar — cancellations propagate outward with delivery proof.</title>
+    <link href="https://github.com/bmmmm/stattii"/>
+    <id>https://github.com/bmmmm/stattii#2026-09-07</id>
+    <updated>2026-09-07T07:03:42Z</updated>
+    <summary>attestation over an event calendar — cancellations propagate outward with delivery proof.</summary>
+    <content type="text">An attestation layer over an event calendar. Responsible people confirm or cancel through tokenised links; a cancellation propagates outward to everyone downstream, with delivery proof at each hop. Built for the case where &quot;I never got the message&quot; has consequences.</content>
+  </entry>
+  <entry>
+    <title>claudii — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.</title>
+    <link href="https://github.com/bmmmm/claudii"/>
+    <id>https://github.com/bmmmm/claudii#2026-09-06</id>
+    <updated>2026-09-06T22:57:01Z</updated>
+    <summary>statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.</summary>
+    <content type="text">A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell.</content>
+  </entry>
+  <entry>
+    <title>gymii — floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.</title>
+    <link href="https://github.com/bmmmm/gymii"/>
+    <id>https://github.com/bmmmm/gymii#2026-09-06</id>
+    <updated>2026-09-06T22:40:25Z</updated>
+    <summary>floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.</summary>
+    <content type="text">Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.</content>
+  </entry>
+  <entry>
+    <title>bumpii — reads what changed in the tools you run and keeps only what touches the features you use.</title>
+    <link href="https://github.com/bmmmm/bumpii"/>
+    <id>https://github.com/bmmmm/bumpii#2026-09-06</id>
+    <updated>2026-09-06T22:33:03Z</updated>
+    <summary>reads what changed in the tools you run and keeps only what touches the features you use.</summary>
+    <content type="text">Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.</content>
+  </entry>
+  <entry>
+    <title>wallii — append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.</title>
+    <link href="https://github.com/bmmmm/wallii"/>
+    <id>https://github.com/bmmmm/wallii#2026-09-06</id>
+    <updated>2026-09-06T19:54:54Z</updated>
+    <summary>append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.</summary>
+    <content type="text">An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.</content>
+  </entry>
+  <entry>
+    <title>musiclinkii — turn one music link into links for every streaming platform.</title>
+    <link href="https://github.com/bmmmm/musiclinkii"/>
+    <id>https://github.com/bmmmm/musiclinkii#2026-09-06</id>
+    <updated>2026-09-06T11:27:23Z</updated>
+    <summary>turn one music link into links for every streaming platform.</summary>
+    <content type="text">Turn one music link into links for every streaming platform, so a recommendation stops depending on what the other person subscribes to. Fully static.</content>
   </entry>
   <entry>
     <title>epcii — EPC QR code (GiroCode) generator — one static binary with its own QR encoder core.</title>
@@ -47,44 +79,12 @@
     <content type="text">EPC QR code (GiroCode) generator — a single static binary with its own QR encoder core rather than a dependency tree, so a payment code can be generated on a machine you do not want to install anything on.</content>
   </entry>
   <entry>
-    <title>stattii — attestation over an event calendar — cancellations propagate outward with delivery proof.</title>
-    <link href="https://github.com/bmmmm/stattii"/>
-    <id>https://github.com/bmmmm/stattii#2026-09-03</id>
-    <updated>2026-09-03T11:49:26Z</updated>
-    <summary>attestation over an event calendar — cancellations propagate outward with delivery proof.</summary>
-    <content type="text">An attestation layer over an event calendar. Responsible people confirm or cancel through tokenised links; a cancellation propagates outward to everyone downstream, with delivery proof at each hop. Built for the case where &quot;I never got the message&quot; has consequences.</content>
-  </entry>
-  <entry>
-    <title>claudii — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.</title>
-    <link href="https://github.com/bmmmm/claudii"/>
-    <id>https://github.com/bmmmm/claudii#2026-09-03</id>
-    <updated>2026-09-03T02:30:33Z</updated>
-    <summary>statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.</summary>
-    <content type="text">A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell.</content>
-  </entry>
-  <entry>
-    <title>bumpii — reads what changed in the tools you run and keeps only what touches the features you use.</title>
-    <link href="https://github.com/bmmmm/bumpii"/>
-    <id>https://github.com/bmmmm/bumpii#2026-09-03</id>
-    <updated>2026-09-03T01:14:07Z</updated>
-    <summary>reads what changed in the tools you run and keeps only what touches the features you use.</summary>
-    <content type="text">Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.</content>
-  </entry>
-  <entry>
     <title>how-small-can-we-go — trust-golf: one champion per task, dethroned by needing less trust. Measured, never claimed.</title>
     <link href="https://github.com/bmmmm/how-small-can-we-go"/>
     <id>https://github.com/bmmmm/how-small-can-we-go#2026-09-03</id>
     <updated>2026-09-03T00:31:48Z</updated>
     <summary>trust-golf: one champion per task, dethroned by needing less trust. Measured, never claimed.</summary>
     <content type="text">A trust-golf arena: one champion per task, dethroned by needing less trust — fewer third-party bytes, fewer dangerous constructs. Every entry is measured against the same surface metric, never self-declared, and the current champion is whoever survived the last challenge.</content>
-  </entry>
-  <entry>
-    <title>gymii — floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.</title>
-    <link href="https://github.com/bmmmm/gymii"/>
-    <id>https://github.com/bmmmm/gymii#2026-09-03</id>
-    <updated>2026-09-03T00:31:44Z</updated>
-    <summary>floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.</summary>
-    <content type="text">Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.</content>
   </entry>
   <entry>
     <title>check0r3000 — LLM extraction of comparable facts out of insurance terms, benchmarked against golden files. Finding so far: what you feed the model matters more than which model.</title>
