@@ -4,23 +4,39 @@
   <subtitle>One entry per project, renewed whenever it is pushed to. Source for all of them: https://github.com/bmmmm</subtitle>
   <link href="https://github.com/bmmmm"/>
   <id>urn:uuid:bf88393a-ff9d-4e7f-abd8-b1a238cdc96f</id>
-  <updated>2026-09-10T02:32:02Z</updated>
+  <updated>2026-09-10T22:24:48Z</updated>
   <author><name>Bartosz</name></author>
   <entry>
-    <title>pegel-visual — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</title>
-    <link href="https://github.com/bmmmm/pegel-visual"/>
-    <id>https://github.com/bmmmm/pegel-visual#2026-09-10</id>
-    <updated>2026-09-10T02:32:02Z</updated>
-    <summary>live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</summary>
-    <content type="text">Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.</content>
+    <title>wallii — append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.</title>
+    <link href="https://github.com/bmmmm/wallii"/>
+    <id>https://github.com/bmmmm/wallii#2026-09-10</id>
+    <updated>2026-09-10T22:24:48Z</updated>
+    <summary>append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.</summary>
+    <content type="text">An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.</content>
   </entry>
   <entry>
     <title>claudii — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.</title>
     <link href="https://github.com/bmmmm/claudii"/>
     <id>https://github.com/bmmmm/claudii#2026-09-10</id>
-    <updated>2026-09-10T00:27:48Z</updated>
+    <updated>2026-09-10T21:00:56Z</updated>
     <summary>statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.</summary>
     <content type="text">A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell.</content>
+  </entry>
+  <entry>
+    <title>pegel-visual — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</title>
+    <link href="https://github.com/bmmmm/pegel-visual"/>
+    <id>https://github.com/bmmmm/pegel-visual#2026-09-10</id>
+    <updated>2026-09-10T20:02:18Z</updated>
+    <summary>live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</summary>
+    <content type="text">Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.</content>
+  </entry>
+  <entry>
+    <title>bumpii — reads what changed in the tools you run and keeps only what touches the features you use.</title>
+    <link href="https://github.com/bmmmm/bumpii"/>
+    <id>https://github.com/bmmmm/bumpii#2026-09-10</id>
+    <updated>2026-09-10T18:27:53Z</updated>
+    <summary>reads what changed in the tools you run and keeps only what touches the features you use.</summary>
+    <content type="text">Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.</content>
   </entry>
   <entry>
     <title>ShareViaQRCode — a large QR code for the current article, so a phone can pick the link off the screen.</title>
@@ -69,14 +85,6 @@
     <updated>2026-09-07T09:39:42Z</updated>
     <summary>local YouTube watch-history analyzer — topics, and consume vs. learn. Fully on-device.</summary>
     <content type="text">Analyses your YouTube watch history locally — topics, and the split between consuming and learning. Fully on-device, because handing a full viewing history to a third party to be told how you spend your evenings is a poor trade.</content>
-  </entry>
-  <entry>
-    <title>wallii — append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.</title>
-    <link href="https://github.com/bmmmm/wallii"/>
-    <id>https://github.com/bmmmm/wallii#2026-09-07</id>
-    <updated>2026-09-07T09:39:30Z</updated>
-    <summary>append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.</summary>
-    <content type="text">An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.</content>
   </entry>
   <entry>
     <title>vpnii — VPN status in the zsh prompt, on top of WireGuard and Tailscale.</title>
@@ -149,14 +157,6 @@
     <updated>2026-09-07T09:37:06Z</updated>
     <summary>trust-golf: one champion per task, dethroned by needing less trust. Measured, never claimed.</summary>
     <content type="text">A trust-golf arena: one champion per task, dethroned by needing less trust — fewer third-party bytes, fewer dangerous constructs. Every entry is measured against the same surface metric, never self-declared, and the current champion is whoever survived the last challenge.</content>
-  </entry>
-  <entry>
-    <title>bumpii — reads what changed in the tools you run and keeps only what touches the features you use.</title>
-    <link href="https://github.com/bmmmm/bumpii"/>
-    <id>https://github.com/bmmmm/bumpii#2026-09-07</id>
-    <updated>2026-09-07T09:36:55Z</updated>
-    <summary>reads what changed in the tools you run and keeps only what touches the features you use.</summary>
-    <content type="text">Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.</content>
   </entry>
   <entry>
     <title>gymii — floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.</title>
