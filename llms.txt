@@ -12,11 +12,11 @@ them: https://github.com/bmmmm
 
 Instrumenting, measuring and fact-checking what models actually do.
 
-- [wallii](https://github.com/bmmmm/wallii): append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. (Go, last push 2026-09-10)
+- [bumpii](https://github.com/bmmmm/bumpii): reads what changed in the tools you run and keeps only what touches the features you use. (TypeScript, last push 2026-09-12)
+- [wallii](https://github.com/bmmmm/wallii): append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. (Go, last push 2026-09-11)
+- [gateii](https://github.com/bmmmm/gateii): minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana. (Lua, last push 2026-09-11)
 - [claudii](https://github.com/bmmmm/claudii): statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons. Live: https://bmmmm.github.io/claudii/ (Shell, last push 2026-09-10)
-- [bumpii](https://github.com/bmmmm/bumpii): reads what changed in the tools you run and keeps only what touches the features you use. (TypeScript, last push 2026-09-10)
 - [comparereleaseii](https://github.com/bmmmm/comparereleaseii): fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone. Live: https://bmmmm.github.io/comparereleaseii/demo/ (TypeScript, last push 2026-09-07)
-- [gateii](https://github.com/bmmmm/gateii): minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana. (Lua, last push 2026-09-07)
 - [check0r3000](https://github.com/bmmmm/check0r3000): LLM extraction of comparable facts out of insurance terms, benchmarked against golden files. Finding so far: what you feed the model matters more than which model. (Python, last push 2026-09-07)
 - [cc-insomnii](https://github.com/bmmmm/cc-insomnii): a bedtime-shaming statusline for Claude Code. (Shell, last push 2026-09-02)
 
@@ -45,7 +45,7 @@ Static pages that keep your data in your own browser.
 
 Things that live in a shell, or in the menu bar next to it.
 
-- [pegel-visual](https://github.com/bmmmm/pegel-visual): live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver. Live: https://bmmmm.github.io/pegel-visual/ (JavaScript, last push 2026-09-10)
+- [pegel-visual](https://github.com/bmmmm/pegel-visual): live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver. Live: https://bmmmm.github.io/pegel-visual/ (JavaScript, last push 2026-09-11)
 - [epcii](https://github.com/bmmmm/epcii): EPC QR code (GiroCode) generator — one static binary with its own QR encoder core. (Go, last push 2026-09-07)
 - [youtubehistii](https://github.com/bmmmm/youtubehistii): local YouTube watch-history analyzer — topics, and consume vs. learn. Fully on-device. (Go, last push 2026-09-07)
 - [vpnii](https://github.com/bmmmm/vpnii): VPN status in the zsh prompt, on top of WireGuard and Tailscale. (Shell, last push 2026-09-07)
@@ -58,9 +58,9 @@ Things that live in a shell, or in the menu bar next to it.
 
 Four small extensions for the reader I actually use every day.
 
+- [ClickHistory](https://github.com/bmmmm/xExtension-ClickHistory): keeps a history of the article links you actually opened. (PHP, last push 2026-09-11)
 - [ShareViaQRCode](https://github.com/bmmmm/xExtension-ShareViaQRCode): a large QR code for the current article, so a phone can pick the link off the screen. (JavaScript, last push 2026-09-08)
 - [NoteDrop](https://github.com/bmmmm/xExtension-NoteDrop): drop notes and links on one device, copy them on another with one click. (PHP, last push 2026-09-08)
-- [ClickHistory](https://github.com/bmmmm/xExtension-ClickHistory): keeps a history of the article links you actually opened. (PHP, last push 2026-09-07)
 - [ExitReaderView](https://github.com/bmmmm/xExtension-ExitReaderView): a floating button to leave the reading view in one click. (JavaScript, last push 2026-09-02)
 
 ## Contact

@@ -4,15 +4,47 @@
   <subtitle>One entry per project, renewed whenever it is pushed to. Source for all of them: https://github.com/bmmmm</subtitle>
   <link href="https://github.com/bmmmm"/>
   <id>urn:uuid:bf88393a-ff9d-4e7f-abd8-b1a238cdc96f</id>
-  <updated>2026-09-10T22:24:48Z</updated>
+  <updated>2026-09-12T02:47:14Z</updated>
   <author><name>Bartosz</name></author>
+  <entry>
+    <title>bumpii — reads what changed in the tools you run and keeps only what touches the features you use.</title>
+    <link href="https://github.com/bmmmm/bumpii"/>
+    <id>https://github.com/bmmmm/bumpii#2026-09-12</id>
+    <updated>2026-09-12T02:47:14Z</updated>
+    <summary>reads what changed in the tools you run and keeps only what touches the features you use.</summary>
+    <content type="text">Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.</content>
+  </entry>
+  <entry>
+    <title>pegel-visual — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</title>
+    <link href="https://github.com/bmmmm/pegel-visual"/>
+    <id>https://github.com/bmmmm/pegel-visual#2026-09-11</id>
+    <updated>2026-09-11T20:01:49Z</updated>
+    <summary>live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</summary>
+    <content type="text">Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.</content>
+  </entry>
   <entry>
     <title>wallii — append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.</title>
     <link href="https://github.com/bmmmm/wallii"/>
-    <id>https://github.com/bmmmm/wallii#2026-09-10</id>
-    <updated>2026-09-10T22:24:48Z</updated>
+    <id>https://github.com/bmmmm/wallii#2026-09-11</id>
+    <updated>2026-09-11T11:50:05Z</updated>
     <summary>append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.</summary>
     <content type="text">An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.</content>
+  </entry>
+  <entry>
+    <title>gateii — minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana.</title>
+    <link href="https://github.com/bmmmm/gateii"/>
+    <id>https://github.com/bmmmm/gateii#2026-09-11</id>
+    <updated>2026-09-11T10:57:23Z</updated>
+    <summary>minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana.</summary>
+    <content type="text">A minimal self-hosted proxy in front of LLM APIs. One place that sees every request, so latency, spend and failure rates are measurable instead of anecdotal.</content>
+  </entry>
+  <entry>
+    <title>ClickHistory — keeps a history of the article links you actually opened.</title>
+    <link href="https://github.com/bmmmm/xExtension-ClickHistory"/>
+    <id>https://github.com/bmmmm/xExtension-ClickHistory#2026-09-11</id>
+    <updated>2026-09-11T09:08:08Z</updated>
+    <summary>keeps a history of the article links you actually opened.</summary>
+    <content type="text">Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns &quot;I read something about this last month&quot; into a searchable list.</content>
   </entry>
   <entry>
     <title>claudii — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.</title>
@@ -21,22 +53,6 @@
     <updated>2026-09-10T21:00:56Z</updated>
     <summary>statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.</summary>
     <content type="text">A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell.</content>
-  </entry>
-  <entry>
-    <title>pegel-visual — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</title>
-    <link href="https://github.com/bmmmm/pegel-visual"/>
-    <id>https://github.com/bmmmm/pegel-visual#2026-09-10</id>
-    <updated>2026-09-10T20:02:18Z</updated>
-    <summary>live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</summary>
-    <content type="text">Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.</content>
-  </entry>
-  <entry>
-    <title>bumpii — reads what changed in the tools you run and keeps only what touches the features you use.</title>
-    <link href="https://github.com/bmmmm/bumpii"/>
-    <id>https://github.com/bmmmm/bumpii#2026-09-10</id>
-    <updated>2026-09-10T18:27:53Z</updated>
-    <summary>reads what changed in the tools you run and keeps only what touches the features you use.</summary>
-    <content type="text">Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.</content>
   </entry>
   <entry>
     <title>ShareViaQRCode — a large QR code for the current article, so a phone can pick the link off the screen.</title>
@@ -167,14 +183,6 @@
     <content type="text">Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.</content>
   </entry>
   <entry>
-    <title>gateii — minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana.</title>
-    <link href="https://github.com/bmmmm/gateii"/>
-    <id>https://github.com/bmmmm/gateii#2026-09-07</id>
-    <updated>2026-09-07T09:36:35Z</updated>
-    <summary>minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana.</summary>
-    <content type="text">A minimal self-hosted proxy in front of LLM APIs. One place that sees every request, so latency, spend and failure rates are measurable instead of anecdotal.</content>
-  </entry>
-  <entry>
     <title>db-wallet — drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.</title>
     <link href="https://github.com/bmmmm/db-wallet"/>
     <id>https://github.com/bmmmm/db-wallet#2026-09-07</id>
@@ -205,14 +213,6 @@
     <updated>2026-09-07T09:35:30Z</updated>
     <summary>switch macOS output and input devices, volume, mute and sample rate from the CLI.</summary>
     <content type="text">Control macOS audio from the CLI: switch the default output and input device, volume, mute and sample rate, and cycle outputs with a global hotkey — the things the system UI makes you click through.</content>
-  </entry>
-  <entry>
-    <title>ClickHistory — keeps a history of the article links you actually opened.</title>
-    <link href="https://github.com/bmmmm/xExtension-ClickHistory"/>
-    <id>https://github.com/bmmmm/xExtension-ClickHistory#2026-09-07</id>
-    <updated>2026-09-07T07:09:17Z</updated>
-    <summary>keeps a history of the article links you actually opened.</summary>
-    <content type="text">Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns &quot;I read something about this last month&quot; into a searchable list.</content>
   </entry>
   <entry>
     <title>ExitReaderView — a floating button to leave the reading view in one click.</title>
