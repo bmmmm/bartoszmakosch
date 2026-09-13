@@ -4,8 +4,16 @@
   <subtitle>One entry per project, renewed whenever it is pushed to. Source for all of them: https://github.com/bmmmm</subtitle>
   <link href="https://github.com/bmmmm"/>
   <id>urn:uuid:bf88393a-ff9d-4e7f-abd8-b1a238cdc96f</id>
-  <updated>2026-09-12T02:47:14Z</updated>
+  <updated>2026-09-12T19:39:33Z</updated>
   <author><name>Bartosz</name></author>
+  <entry>
+    <title>pegel-visual — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</title>
+    <link href="https://github.com/bmmmm/pegel-visual"/>
+    <id>https://github.com/bmmmm/pegel-visual#2026-09-12</id>
+    <updated>2026-09-12T19:39:33Z</updated>
+    <summary>live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</summary>
+    <content type="text">Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.</content>
+  </entry>
   <entry>
     <title>bumpii — reads what changed in the tools you run and keeps only what touches the features you use.</title>
     <link href="https://github.com/bmmmm/bumpii"/>
@@ -13,14 +21,6 @@
     <updated>2026-09-12T02:47:14Z</updated>
     <summary>reads what changed in the tools you run and keeps only what touches the features you use.</summary>
     <content type="text">Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.</content>
-  </entry>
-  <entry>
-    <title>pegel-visual — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</title>
-    <link href="https://github.com/bmmmm/pegel-visual"/>
-    <id>https://github.com/bmmmm/pegel-visual#2026-09-11</id>
-    <updated>2026-09-11T20:01:49Z</updated>
-    <summary>live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</summary>
-    <content type="text">Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.</content>
   </entry>
   <entry>
     <title>wallii — append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.</title>

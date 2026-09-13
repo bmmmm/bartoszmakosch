@@ -45,7 +45,7 @@ Static pages that keep your data in your own browser.
 
 Things that live in a shell, or in the menu bar next to it.
 
-- [pegel-visual](https://github.com/bmmmm/pegel-visual): live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver. Live: https://bmmmm.github.io/pegel-visual/ (JavaScript, last push 2026-09-11)
+- [pegel-visual](https://github.com/bmmmm/pegel-visual): live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver. Live: https://bmmmm.github.io/pegel-visual/ (JavaScript, last push 2026-09-12)
 - [epcii](https://github.com/bmmmm/epcii): EPC QR code (GiroCode) generator — one static binary with its own QR encoder core. (Go, last push 2026-09-07)
 - [youtubehistii](https://github.com/bmmmm/youtubehistii): local YouTube watch-history analyzer — topics, and consume vs. learn. Fully on-device. (Go, last push 2026-09-07)
 - [vpnii](https://github.com/bmmmm/vpnii): VPN status in the zsh prompt, on top of WireGuard and Tailscale. (Shell, last push 2026-09-07)
