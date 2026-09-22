@@ -45,7 +45,7 @@ Static pages that keep your data in your own browser.
 
 Things that live in a shell, or in the menu bar next to it.
 
-- [epcii](https://github.com/bmmmm/epcii): EPC QR code (GiroCode) generator — one static binary with its own QR encoder core. (Go, last push 2026-09-21)
+- [epcii](https://github.com/bmmmm/epcii): EPC QR code (GiroCode) generator — one static binary with its own QR encoder core. Live: https://bmmmm.github.io/epcii/ (Go, last push 2026-09-21)
 - [pegel-visual](https://github.com/bmmmm/pegel-visual): live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver. Live: https://bmmmm.github.io/pegel-visual/ (JavaScript, last push 2026-09-21)
 - [youtubehistii](https://github.com/bmmmm/youtubehistii): local YouTube watch-history analyzer — topics, and consume vs. learn. Fully on-device. (Go, last push 2026-09-07)
 - [vpnii](https://github.com/bmmmm/vpnii): VPN status in the zsh prompt, on top of WireGuard and Tailscale. (Shell, last push 2026-09-07)
@@ -58,9 +58,9 @@ Things that live in a shell, or in the menu bar next to it.
 
 Four small extensions for the reader I actually use every day.
 
+- [NoteDrop](https://github.com/bmmmm/xExtension-NoteDrop): drop notes and links on one device, copy them on another with one click. (PHP, last push 2026-09-22)
 - [ClickHistory](https://github.com/bmmmm/xExtension-ClickHistory): keeps a history of the article links you actually opened. (PHP, last push 2026-09-18)
 - [ShareViaQRCode](https://github.com/bmmmm/xExtension-ShareViaQRCode): a large QR code for the current article, so a phone can pick the link off the screen. (JavaScript, last push 2026-09-08)
-- [NoteDrop](https://github.com/bmmmm/xExtension-NoteDrop): drop notes and links on one device, copy them on another with one click. (PHP, last push 2026-09-08)
 - [ExitReaderView](https://github.com/bmmmm/xExtension-ExitReaderView): a floating button to leave the reading view in one click. (JavaScript, last push 2026-09-02)
 
 ## Contact
