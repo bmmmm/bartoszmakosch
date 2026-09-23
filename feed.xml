@@ -4,8 +4,24 @@
   <subtitle>One entry per project, renewed whenever it is pushed to. Source for all of them: https://github.com/bmmmm</subtitle>
   <link href="https://github.com/bmmmm"/>
   <id>urn:uuid:bf88393a-ff9d-4e7f-abd8-b1a238cdc96f</id>
-  <updated>2026-09-22T06:35:20Z</updated>
+  <updated>2026-09-22T22:50:02Z</updated>
   <author><name>Bartosz</name></author>
+  <entry>
+    <title>pegel-visual — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</title>
+    <link href="https://github.com/bmmmm/pegel-visual"/>
+    <id>https://github.com/bmmmm/pegel-visual#2026-09-22</id>
+    <updated>2026-09-22T22:50:02Z</updated>
+    <summary>live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</summary>
+    <content type="text">Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.</content>
+  </entry>
+  <entry>
+    <title>ShareViaQRCode — a large QR code for the current article, so a phone can pick the link off the screen.</title>
+    <link href="https://github.com/bmmmm/xExtension-ShareViaQRCode"/>
+    <id>https://github.com/bmmmm/xExtension-ShareViaQRCode#2026-09-22</id>
+    <updated>2026-09-22T18:44:11Z</updated>
+    <summary>a large QR code for the current article, so a phone can pick the link off the screen.</summary>
+    <content type="text">Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.</content>
+  </entry>
   <entry>
     <title>NoteDrop — drop notes and links on one device, copy them on another with one click.</title>
     <link href="https://github.com/bmmmm/xExtension-NoteDrop"/>
@@ -21,14 +37,6 @@
     <updated>2026-09-21T21:15:52Z</updated>
     <summary>EPC QR code (GiroCode) generator — one static binary with its own QR encoder core.</summary>
     <content type="text">EPC QR code (GiroCode) generator — a single static binary with its own QR encoder core rather than a dependency tree, so a payment code can be generated on a machine you do not want to install anything on.</content>
-  </entry>
-  <entry>
-    <title>pegel-visual — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</title>
-    <link href="https://github.com/bmmmm/pegel-visual"/>
-    <id>https://github.com/bmmmm/pegel-visual#2026-09-21</id>
-    <updated>2026-09-21T21:15:32Z</updated>
-    <summary>live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</summary>
-    <content type="text">Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.</content>
   </entry>
   <entry>
     <title>ClickHistory — keeps a history of the article links you actually opened.</title>
@@ -77,14 +85,6 @@
     <updated>2026-09-11T10:57:23Z</updated>
     <summary>minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana.</summary>
     <content type="text">A minimal self-hosted proxy in front of LLM APIs. One place that sees every request, so latency, spend and failure rates are measurable instead of anecdotal.</content>
-  </entry>
-  <entry>
-    <title>ShareViaQRCode — a large QR code for the current article, so a phone can pick the link off the screen.</title>
-    <link href="https://github.com/bmmmm/xExtension-ShareViaQRCode"/>
-    <id>https://github.com/bmmmm/xExtension-ShareViaQRCode#2026-09-08</id>
-    <updated>2026-09-08T18:44:32Z</updated>
-    <summary>a large QR code for the current article, so a phone can pick the link off the screen.</summary>
-    <content type="text">Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.</content>
   </entry>
   <entry>
     <title>musiclinkii — turn one music link into links for every streaming platform.</title>
