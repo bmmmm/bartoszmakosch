@@ -4,15 +4,63 @@
   <subtitle>One entry per project, renewed whenever it is pushed to. Source for all of them: https://github.com/bmmmm</subtitle>
   <link href="https://github.com/bmmmm"/>
   <id>urn:uuid:bf88393a-ff9d-4e7f-abd8-b1a238cdc96f</id>
-  <updated>2026-09-22T22:50:02Z</updated>
+  <updated>2026-09-24T00:38:31Z</updated>
   <author><name>Bartosz</name></author>
   <entry>
     <title>pegel-visual — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</title>
     <link href="https://github.com/bmmmm/pegel-visual"/>
-    <id>https://github.com/bmmmm/pegel-visual#2026-09-22</id>
-    <updated>2026-09-22T22:50:02Z</updated>
+    <id>https://github.com/bmmmm/pegel-visual#2026-09-24</id>
+    <updated>2026-09-24T00:38:31Z</updated>
     <summary>live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</summary>
     <content type="text">Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.</content>
+  </entry>
+  <entry>
+    <title>stattii — attestation over an event calendar — cancellations propagate outward with delivery proof.</title>
+    <link href="https://github.com/bmmmm/stattii"/>
+    <id>https://github.com/bmmmm/stattii#2026-09-24</id>
+    <updated>2026-09-24T00:30:43Z</updated>
+    <summary>attestation over an event calendar — cancellations propagate outward with delivery proof.</summary>
+    <content type="text">An attestation layer over an event calendar. Responsible people confirm or cancel through tokenised links; a cancellation propagates outward to everyone downstream, with delivery proof at each hop. Built for the case where &quot;I never got the message&quot; has consequences.</content>
+  </entry>
+  <entry>
+    <title>wallii — append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.</title>
+    <link href="https://github.com/bmmmm/wallii"/>
+    <id>https://github.com/bmmmm/wallii#2026-09-24</id>
+    <updated>2026-09-24T00:17:45Z</updated>
+    <summary>append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.</summary>
+    <content type="text">An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.</content>
+  </entry>
+  <entry>
+    <title>baaackaaab — one-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store.</title>
+    <link href="https://github.com/bmmmm/baaackaaab"/>
+    <id>https://github.com/bmmmm/baaackaaab#2026-09-24</id>
+    <updated>2026-09-24T00:14:30Z</updated>
+    <summary>one-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store.</summary>
+    <content type="text">One-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store. One-way is the whole design — the machine holding the source can write new snapshots but cannot delete old ones, so an attacker with full control of it still cannot reach into yesterday.</content>
+  </entry>
+  <entry>
+    <title>bumpii — reads what changed in the tools you run and keeps only what touches the features you use.</title>
+    <link href="https://github.com/bmmmm/bumpii"/>
+    <id>https://github.com/bmmmm/bumpii#2026-09-23</id>
+    <updated>2026-09-23T23:55:10Z</updated>
+    <summary>reads what changed in the tools you run and keeps only what touches the features you use.</summary>
+    <content type="text">Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.</content>
+  </entry>
+  <entry>
+    <title>gymii — floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.</title>
+    <link href="https://github.com/bmmmm/gymii"/>
+    <id>https://github.com/bmmmm/gymii#2026-09-23</id>
+    <updated>2026-09-23T23:38:40Z</updated>
+    <summary>floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.</summary>
+    <content type="text">Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.</content>
+  </entry>
+  <entry>
+    <title>gateii — minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana.</title>
+    <link href="https://github.com/bmmmm/gateii"/>
+    <id>https://github.com/bmmmm/gateii#2026-09-23</id>
+    <updated>2026-09-23T23:16:25Z</updated>
+    <summary>minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana.</summary>
+    <content type="text">A minimal self-hosted proxy in front of LLM APIs. One place that sees every request, so latency, spend and failure rates are measurable instead of anecdotal.</content>
   </entry>
   <entry>
     <title>ShareViaQRCode — a large QR code for the current article, so a phone can pick the link off the screen.</title>
@@ -47,44 +95,12 @@
     <content type="text">Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns &quot;I read something about this last month&quot; into a searchable list.</content>
   </entry>
   <entry>
-    <title>gymii — floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.</title>
-    <link href="https://github.com/bmmmm/gymii"/>
-    <id>https://github.com/bmmmm/gymii#2026-09-17</id>
-    <updated>2026-09-17T11:02:17Z</updated>
-    <summary>floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.</summary>
-    <content type="text">Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.</content>
-  </entry>
-  <entry>
     <title>claudii — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.</title>
     <link href="https://github.com/bmmmm/claudii"/>
     <id>https://github.com/bmmmm/claudii#2026-09-16</id>
     <updated>2026-09-16T13:21:25Z</updated>
     <summary>statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.</summary>
     <content type="text">A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell.</content>
-  </entry>
-  <entry>
-    <title>wallii — append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.</title>
-    <link href="https://github.com/bmmmm/wallii"/>
-    <id>https://github.com/bmmmm/wallii#2026-09-13</id>
-    <updated>2026-09-13T21:02:05Z</updated>
-    <summary>append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.</summary>
-    <content type="text">An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.</content>
-  </entry>
-  <entry>
-    <title>bumpii — reads what changed in the tools you run and keeps only what touches the features you use.</title>
-    <link href="https://github.com/bmmmm/bumpii"/>
-    <id>https://github.com/bmmmm/bumpii#2026-09-12</id>
-    <updated>2026-09-12T02:47:14Z</updated>
-    <summary>reads what changed in the tools you run and keeps only what touches the features you use.</summary>
-    <content type="text">Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.</content>
-  </entry>
-  <entry>
-    <title>gateii — minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana.</title>
-    <link href="https://github.com/bmmmm/gateii"/>
-    <id>https://github.com/bmmmm/gateii#2026-09-11</id>
-    <updated>2026-09-11T10:57:23Z</updated>
-    <summary>minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana.</summary>
-    <content type="text">A minimal self-hosted proxy in front of LLM APIs. One place that sees every request, so latency, spend and failure rates are measurable instead of anecdotal.</content>
   </entry>
   <entry>
     <title>musiclinkii — turn one music link into links for every streaming platform.</title>
@@ -117,14 +133,6 @@
     <updated>2026-09-07T09:39:18Z</updated>
     <summary>VPN status in the zsh prompt, on top of WireGuard and Tailscale.</summary>
     <content type="text">VPN status indicator for zsh plus a small CLI on top of WireGuard and Tailscale. Answers &quot;am I actually on the tunnel right now&quot; in the prompt, where the question comes up.</content>
-  </entry>
-  <entry>
-    <title>stattii — attestation over an event calendar — cancellations propagate outward with delivery proof.</title>
-    <link href="https://github.com/bmmmm/stattii"/>
-    <id>https://github.com/bmmmm/stattii#2026-09-07</id>
-    <updated>2026-09-07T09:39:10Z</updated>
-    <summary>attestation over an event calendar — cancellations propagate outward with delivery proof.</summary>
-    <content type="text">An attestation layer over an event calendar. Responsible people confirm or cancel through tokenised links; a cancellation propagates outward to everyone downstream, with delivery proof at each hop. Built for the case where &quot;I never got the message&quot; has consequences.</content>
   </entry>
   <entry>
     <title>shieldchipiii — stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory.</title>
@@ -197,14 +205,6 @@
     <updated>2026-09-07T09:35:53Z</updated>
     <summary>LLM extraction of comparable facts out of insurance terms, benchmarked against golden files. Finding so far: what you feed the model matters more than which model.</summary>
     <content type="text">Extracts comparable facts out of German insurance terms (AVB), ranks them by quality and tracks prices over time — an entire market in one terminal. Ships with its own benchmark: golden files per line of business, scored on faithfulness, schema validity, hallucinations and coverage, because an extraction pipeline whose accuracy you have not measured is a rumour. Finding so far: what you feed the model matters more than which model — on one contract a local 20B model scored 100 where Opus scored 57, same input.</content>
-  </entry>
-  <entry>
-    <title>baaackaaab — one-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store.</title>
-    <link href="https://github.com/bmmmm/baaackaaab"/>
-    <id>https://github.com/bmmmm/baaackaaab#2026-09-07</id>
-    <updated>2026-09-07T09:35:35Z</updated>
-    <summary>one-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store.</summary>
-    <content type="text">One-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store. One-way is the whole design — the machine holding the source can write new snapshots but cannot delete old ones, so an attacker with full control of it still cannot reach into yesterday.</content>
   </entry>
   <entry>
     <title>audioctl — switch macOS output and input devices, volume, mute and sample rate from the CLI.</title>
