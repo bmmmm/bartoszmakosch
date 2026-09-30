@@ -4,23 +4,47 @@
   <subtitle>One entry per project, renewed whenever it is pushed to. Source for all of them: https://github.com/bmmmm</subtitle>
   <link href="https://github.com/bmmmm"/>
   <id>urn:uuid:bf88393a-ff9d-4e7f-abd8-b1a238cdc96f</id>
-  <updated>2026-09-29T06:34:07Z</updated>
+  <updated>2026-09-30T07:41:58Z</updated>
   <author><name>Bartosz</name></author>
+  <entry>
+    <title>pegel-visual — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</title>
+    <link href="https://github.com/bmmmm/pegel-visual"/>
+    <id>https://github.com/bmmmm/pegel-visual#2026-09-30</id>
+    <updated>2026-09-30T07:41:58Z</updated>
+    <summary>live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</summary>
+    <content type="text">Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.</content>
+  </entry>
+  <entry>
+    <title>ShareViaQRCode — a large QR code for the current article, so a phone can pick the link off the screen.</title>
+    <link href="https://github.com/bmmmm/xExtension-ShareViaQRCode"/>
+    <id>https://github.com/bmmmm/xExtension-ShareViaQRCode#2026-09-29</id>
+    <updated>2026-09-29T23:11:54Z</updated>
+    <summary>a large QR code for the current article, so a phone can pick the link off the screen.</summary>
+    <content type="text">Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.</content>
+  </entry>
   <entry>
     <title>NoteDrop — drop notes and links on one device, copy them on another with one click.</title>
     <link href="https://github.com/bmmmm/xExtension-NoteDrop"/>
     <id>https://github.com/bmmmm/xExtension-NoteDrop#2026-09-29</id>
-    <updated>2026-09-29T06:34:07Z</updated>
+    <updated>2026-09-29T23:11:49Z</updated>
     <summary>drop notes and links on one device, copy them on another with one click.</summary>
     <content type="text">Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.</content>
   </entry>
   <entry>
-    <title>pegel-visual — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</title>
-    <link href="https://github.com/bmmmm/pegel-visual"/>
-    <id>https://github.com/bmmmm/pegel-visual#2026-09-28</id>
-    <updated>2026-09-28T22:39:59Z</updated>
-    <summary>live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</summary>
-    <content type="text">Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.</content>
+    <title>ExitReaderView — a floating button to leave the reading view in one click.</title>
+    <link href="https://github.com/bmmmm/xExtension-ExitReaderView"/>
+    <id>https://github.com/bmmmm/xExtension-ExitReaderView#2026-09-29</id>
+    <updated>2026-09-29T23:11:44Z</updated>
+    <summary>a floating button to leave the reading view in one click.</summary>
+    <content type="text">Adds a floating button to leave the reading view in one click. Nine commits, and it fixes the thing that annoyed me daily.</content>
+  </entry>
+  <entry>
+    <title>ClickHistory — keeps a history of the article links you actually opened.</title>
+    <link href="https://github.com/bmmmm/xExtension-ClickHistory"/>
+    <id>https://github.com/bmmmm/xExtension-ClickHistory#2026-09-29</id>
+    <updated>2026-09-29T23:11:40Z</updated>
+    <summary>keeps a history of the article links you actually opened.</summary>
+    <content type="text">Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns &quot;I read something about this last month&quot; into a searchable list.</content>
   </entry>
   <entry>
     <title>bumpii — reads what changed in the tools you run and keeps only what touches the features you use.</title>
@@ -199,22 +223,6 @@
     <content type="text">A minimal self-hosted proxy in front of LLM APIs. One place that sees every request, so latency, spend and failure rates are measurable instead of anecdotal.</content>
   </entry>
   <entry>
-    <title>ShareViaQRCode — a large QR code for the current article, so a phone can pick the link off the screen.</title>
-    <link href="https://github.com/bmmmm/xExtension-ShareViaQRCode"/>
-    <id>https://github.com/bmmmm/xExtension-ShareViaQRCode#2026-09-22</id>
-    <updated>2026-09-22T18:44:11Z</updated>
-    <summary>a large QR code for the current article, so a phone can pick the link off the screen.</summary>
-    <content type="text">Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.</content>
-  </entry>
-  <entry>
-    <title>ClickHistory — keeps a history of the article links you actually opened.</title>
-    <link href="https://github.com/bmmmm/xExtension-ClickHistory"/>
-    <id>https://github.com/bmmmm/xExtension-ClickHistory#2026-09-18</id>
-    <updated>2026-09-18T09:07:52Z</updated>
-    <summary>keeps a history of the article links you actually opened.</summary>
-    <content type="text">Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns &quot;I read something about this last month&quot; into a searchable list.</content>
-  </entry>
-  <entry>
     <title>vpnii — VPN status in the zsh prompt, on top of WireGuard and Tailscale.</title>
     <link href="https://github.com/bmmmm/vpnii"/>
     <id>https://github.com/bmmmm/vpnii#2026-09-07</id>
@@ -229,14 +237,6 @@
     <updated>2026-09-07T09:37:30Z</updated>
     <summary>locks the keyboard while you clean it, with animations worth the thirty seconds.</summary>
     <content type="text">Locks the keyboard while you wipe it down, with animations worth watching for the thirty seconds it takes.</content>
-  </entry>
-  <entry>
-    <title>ExitReaderView — a floating button to leave the reading view in one click.</title>
-    <link href="https://github.com/bmmmm/xExtension-ExitReaderView"/>
-    <id>https://github.com/bmmmm/xExtension-ExitReaderView#2026-09-02</id>
-    <updated>2026-09-02T22:44:55Z</updated>
-    <summary>a floating button to leave the reading view in one click.</summary>
-    <content type="text">Adds a floating button to leave the reading view in one click. Nine commits, and it fixes the thing that annoyed me daily.</content>
   </entry>
   <entry>
     <title>cc-insomnii — a bedtime-shaming statusline for Claude Code.</title>
