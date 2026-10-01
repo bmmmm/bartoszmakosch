@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # build-site.sh — render everything on this site that comes from the profile
-# feed: the visible project list, the "recently pushed" line, two lines on the
-# drawn ASCII screen, llms.txt, feed.xml and the JSON-LD block.
+# feed: the intro paragraph, the visible project list, the "recently pushed"
+# line, two lines on the drawn ASCII screen, llms.txt, feed.xml and the JSON-LD
+# block.
 #
 # Source of truth is projects.json in the bmmmm/bmmmm repo, built there from
 # the curated categories plus live GitHub metadata. This page never curates a
@@ -51,6 +52,15 @@ given_name="${site_name%% *}"
 # Every project, newest push first, regardless of category. Used by the
 # "recently pushed" line, the screen and the feed.
 jq '[.categories[].projects[]] | sort_by(.pushed_at // .updated // "") | reverse' "$feed" > "$tmp/by-push.json"
+
+# ── intro ───────────────────────────────────────────────────────────────────
+# The paragraph under the heading comes from the feed too. It used to be typed
+# into index.html, a shorter copy that drifted from the source, which is the
+# second curation this page says it never does. A feed without one is refused
+# rather than rendered as a page that silently lost its opening.
+jq -e '.intro | type == "string" and length > 0' "$feed" >/dev/null \
+  || { echo "build-site: feed has no intro — refusing to publish a page without its opening" >&2; exit 1; }
+jq -r '"                <p class=\"tagline\">" + (.intro | @html) + "</p>"' "$feed" > "$tmp/intro.html"
 
 # ── visible list ────────────────────────────────────────────────────────────
 # One <li> per project with the date of its last push. A date is the cheapest
@@ -230,7 +240,7 @@ site_url="${site_url%/}"
 # Block markers stand on their own lines and enclose whole lines. Inline
 # markers sit on one line inside the <pre>, where an extra line would render
 # as a blank row on the screen.
-for marker in jsonld recent projects; do
+for marker in jsonld intro recent projects; do
   grep -q "<!-- $marker:start -->" "$index" || {
     echo "build-site: no $marker:start marker in index.html" >&2; exit 1; }
   grep -q "<!-- $marker:end -->" "$index" || {
@@ -267,6 +277,7 @@ splice_inline() {  # <marker> <html> — replaces what stands between the marker
 }
 
 splice jsonld "$tmp/ld.html"
+splice intro "$tmp/intro.html"
 splice recent "$tmp/recent.html"
 splice projects "$tmp/list.html"
 splice_inline sites "$sites_line"
