@@ -4,39 +4,63 @@
   <subtitle>One entry per project, renewed whenever it is pushed to. Source for all of them: https://github.com/bmmmm</subtitle>
   <link href="https://github.com/bmmmm"/>
   <id>urn:uuid:bf88393a-ff9d-4e7f-abd8-b1a238cdc96f</id>
-  <updated>2026-10-05T09:40:45Z</updated>
+  <updated>2026-10-06T07:28:57Z</updated>
   <author><name>Bartosz</name></author>
   <entry>
     <title>bumpii — reads what changed in the tools you run and keeps only what touches the features you use.</title>
     <link href="https://github.com/bmmmm/bumpii"/>
-    <id>https://github.com/bmmmm/bumpii#2026-10-05</id>
-    <updated>2026-10-05T09:40:45Z</updated>
+    <id>https://github.com/bmmmm/bumpii#2026-10-06</id>
+    <updated>2026-10-06T07:28:57Z</updated>
     <summary>reads what changed in the tools you run and keeps only what touches the features you use.</summary>
     <content type="text">Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.</content>
+  </entry>
+  <entry>
+    <title>NoteDrop — drop notes and links on one device, copy them on another with one click.</title>
+    <link href="https://github.com/bmmmm/xExtension-NoteDrop"/>
+    <id>https://github.com/bmmmm/xExtension-NoteDrop#2026-10-06</id>
+    <updated>2026-10-06T06:35:47Z</updated>
+    <summary>drop notes and links on one device, copy them on another with one click.</summary>
+    <content type="text">Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.</content>
   </entry>
   <entry>
     <title>pegel-visual — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</title>
     <link href="https://github.com/bmmmm/pegel-visual"/>
     <id>https://github.com/bmmmm/pegel-visual#2026-10-05</id>
-    <updated>2026-10-05T07:10:05Z</updated>
+    <updated>2026-10-05T23:22:48Z</updated>
     <summary>live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</summary>
     <content type="text">Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.</content>
   </entry>
   <entry>
-    <title>claudii — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.</title>
-    <link href="https://github.com/bmmmm/claudii"/>
-    <id>https://github.com/bmmmm/claudii#2026-10-02</id>
-    <updated>2026-10-02T09:11:01Z</updated>
-    <summary>statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.</summary>
-    <content type="text">A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell.</content>
+    <title>comparereleaseii — fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.</title>
+    <link href="https://github.com/bmmmm/comparereleaseii"/>
+    <id>https://github.com/bmmmm/comparereleaseii#2026-10-05</id>
+    <updated>2026-10-05T20:55:58Z</updated>
+    <summary>fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.</summary>
+    <content type="text">Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?</content>
+  </entry>
+  <entry>
+    <title>ShareViaQRCode — a large QR code for the current article, so a phone can pick the link off the screen.</title>
+    <link href="https://github.com/bmmmm/xExtension-ShareViaQRCode"/>
+    <id>https://github.com/bmmmm/xExtension-ShareViaQRCode#2026-10-05</id>
+    <updated>2026-10-05T14:03:25Z</updated>
+    <summary>a large QR code for the current article, so a phone can pick the link off the screen.</summary>
+    <content type="text">Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.</content>
   </entry>
   <entry>
     <title>ClickHistory — keeps a history of the article links you actually opened.</title>
     <link href="https://github.com/bmmmm/xExtension-ClickHistory"/>
-    <id>https://github.com/bmmmm/xExtension-ClickHistory#2026-10-02</id>
-    <updated>2026-10-02T09:06:35Z</updated>
+    <id>https://github.com/bmmmm/xExtension-ClickHistory#2026-10-05</id>
+    <updated>2026-10-05T14:02:55Z</updated>
     <summary>keeps a history of the article links you actually opened.</summary>
     <content type="text">Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns &quot;I read something about this last month&quot; into a searchable list.</content>
+  </entry>
+  <entry>
+    <title>claudii — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.</title>
+    <link href="https://github.com/bmmmm/claudii"/>
+    <id>https://github.com/bmmmm/claudii#2026-10-05</id>
+    <updated>2026-10-05T13:41:49Z</updated>
+    <summary>statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.</summary>
+    <content type="text">A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell.</content>
   </entry>
   <entry>
     <title>gymii — floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.</title>
@@ -69,14 +93,6 @@
     <updated>2026-10-01T21:54:40Z</updated>
     <summary>drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.</summary>
     <content type="text">Drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.</content>
-  </entry>
-  <entry>
-    <title>comparereleaseii — fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.</title>
-    <link href="https://github.com/bmmmm/comparereleaseii"/>
-    <id>https://github.com/bmmmm/comparereleaseii#2026-10-01</id>
-    <updated>2026-10-01T17:08:28Z</updated>
-    <summary>fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.</summary>
-    <content type="text">Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?</content>
   </entry>
   <entry>
     <title>baaackaaab — one-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store.</title>
@@ -127,14 +143,6 @@
     <content type="text">Paste an email header and read what it says about you: who the message was really addressed to, how that address was hidden from the other recipients, and where the unsubscribe link actually leads. Runs entirely client-side — a tool about privacy that uploaded your mail headers would be a joke.</content>
   </entry>
   <entry>
-    <title>NoteDrop — drop notes and links on one device, copy them on another with one click.</title>
-    <link href="https://github.com/bmmmm/xExtension-NoteDrop"/>
-    <id>https://github.com/bmmmm/xExtension-NoteDrop#2026-10-01</id>
-    <updated>2026-10-01T08:24:14Z</updated>
-    <summary>drop notes and links on one device, copy them on another with one click.</summary>
-    <content type="text">Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.</content>
-  </entry>
-  <entry>
     <title>gateii — minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana.</title>
     <link href="https://github.com/bmmmm/gateii"/>
     <id>https://github.com/bmmmm/gateii#2026-10-01</id>
@@ -157,14 +165,6 @@
     <updated>2026-10-01T07:21:42Z</updated>
     <summary>local YouTube watch-history analyzer — topics, and consume vs. learn. Fully on-device.</summary>
     <content type="text">Analyses your YouTube watch history locally — topics, and the split between consuming and learning. Fully on-device, because handing a full viewing history to a third party to be told how you spend your evenings is a poor trade.</content>
-  </entry>
-  <entry>
-    <title>ShareViaQRCode — a large QR code for the current article, so a phone can pick the link off the screen.</title>
-    <link href="https://github.com/bmmmm/xExtension-ShareViaQRCode"/>
-    <id>https://github.com/bmmmm/xExtension-ShareViaQRCode#2026-09-29</id>
-    <updated>2026-09-29T23:11:54Z</updated>
-    <summary>a large QR code for the current article, so a phone can pick the link off the screen.</summary>
-    <content type="text">Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.</content>
   </entry>
   <entry>
     <title>ExitReaderView — a floating button to leave the reading view in one click.</title>
