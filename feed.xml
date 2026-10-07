@@ -4,15 +4,31 @@
   <subtitle>One entry per project, renewed whenever it is pushed to. Source for all of them: https://github.com/bmmmm</subtitle>
   <link href="https://github.com/bmmmm"/>
   <id>urn:uuid:bf88393a-ff9d-4e7f-abd8-b1a238cdc96f</id>
-  <updated>2026-10-06T07:28:57Z</updated>
+  <updated>2026-10-07T06:26:15Z</updated>
   <author><name>Bartosz</name></author>
   <entry>
     <title>bumpii — reads what changed in the tools you run and keeps only what touches the features you use.</title>
     <link href="https://github.com/bmmmm/bumpii"/>
-    <id>https://github.com/bmmmm/bumpii#2026-10-06</id>
-    <updated>2026-10-06T07:28:57Z</updated>
+    <id>https://github.com/bmmmm/bumpii#2026-10-07</id>
+    <updated>2026-10-07T06:26:15Z</updated>
     <summary>reads what changed in the tools you run and keeps only what touches the features you use.</summary>
     <content type="text">Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.</content>
+  </entry>
+  <entry>
+    <title>pegel-visual — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</title>
+    <link href="https://github.com/bmmmm/pegel-visual"/>
+    <id>https://github.com/bmmmm/pegel-visual#2026-10-06</id>
+    <updated>2026-10-06T21:53:59Z</updated>
+    <summary>live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</summary>
+    <content type="text">Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.</content>
+  </entry>
+  <entry>
+    <title>ShareViaQRCode — a large QR code for the current article, so a phone can pick the link off the screen.</title>
+    <link href="https://github.com/bmmmm/xExtension-ShareViaQRCode"/>
+    <id>https://github.com/bmmmm/xExtension-ShareViaQRCode#2026-10-06</id>
+    <updated>2026-10-06T18:44:36Z</updated>
+    <summary>a large QR code for the current article, so a phone can pick the link off the screen.</summary>
+    <content type="text">Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.</content>
   </entry>
   <entry>
     <title>NoteDrop — drop notes and links on one device, copy them on another with one click.</title>
@@ -23,28 +39,12 @@
     <content type="text">Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.</content>
   </entry>
   <entry>
-    <title>pegel-visual — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</title>
-    <link href="https://github.com/bmmmm/pegel-visual"/>
-    <id>https://github.com/bmmmm/pegel-visual#2026-10-05</id>
-    <updated>2026-10-05T23:22:48Z</updated>
-    <summary>live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</summary>
-    <content type="text">Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.</content>
-  </entry>
-  <entry>
     <title>comparereleaseii — fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.</title>
     <link href="https://github.com/bmmmm/comparereleaseii"/>
     <id>https://github.com/bmmmm/comparereleaseii#2026-10-05</id>
     <updated>2026-10-05T20:55:58Z</updated>
     <summary>fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.</summary>
     <content type="text">Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?</content>
-  </entry>
-  <entry>
-    <title>ShareViaQRCode — a large QR code for the current article, so a phone can pick the link off the screen.</title>
-    <link href="https://github.com/bmmmm/xExtension-ShareViaQRCode"/>
-    <id>https://github.com/bmmmm/xExtension-ShareViaQRCode#2026-10-05</id>
-    <updated>2026-10-05T14:03:25Z</updated>
-    <summary>a large QR code for the current article, so a phone can pick the link off the screen.</summary>
-    <content type="text">Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.</content>
   </entry>
   <entry>
     <title>ClickHistory — keeps a history of the article links you actually opened.</title>
