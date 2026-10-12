@@ -12,7 +12,7 @@ them: https://github.com/bmmmm
 
 Instrumenting, measuring and fact-checking what models actually do.
 
-- [claudii](https://github.com/bmmmm/claudii): statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons. Live: https://bmmmm.github.io/claudii/ (Shell, last push 2026-10-08)
+- [claudii](https://github.com/bmmmm/claudii): statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons. Live: https://bmmmm.github.io/claudii/ (Shell, last push 2026-10-12)
 - [bumpii](https://github.com/bmmmm/bumpii): reads what changed in the tools you run and keeps only what touches the features you use. (TypeScript, last push 2026-10-07)
 - [comparereleaseii](https://github.com/bmmmm/comparereleaseii): fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone. Live: https://bmmmm.github.io/comparereleaseii/demo/ (TypeScript, last push 2026-10-05)
 - [gateii](https://github.com/bmmmm/gateii): minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana. (Lua, last push 2026-10-01)
@@ -24,7 +24,7 @@ Instrumenting, measuring and fact-checking what models actually do.
 
 Systems that assume the failure already happened and stay useful anyway.
 
-- [how-small-can-we-go](https://github.com/bmmmm/how-small-can-we-go): trust-golf: one champion per task, dethroned by needing less trust. Measured, never claimed. Live: https://bmmmm.github.io/how-small-can-we-go/ (Go, last push 2026-10-01)
+- [how-small-can-we-go](https://github.com/bmmmm/how-small-can-we-go): trust-golf: one champion per task, dethroned by needing less trust. Measured, never claimed. Live: https://bmmmm.github.io/how-small-can-we-go/ (Go, last push 2026-10-11)
 - [baaackaaab](https://github.com/bmmmm/baaackaaab): one-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store. (Swift, last push 2026-10-01)
 - [stattii](https://github.com/bmmmm/stattii): attestation over an event calendar — cancellations propagate outward with delivery proof. (Go, last push 2026-09-25)
 - [revertii](https://github.com/bmmmm/revertii): update a service with the way back built in: snapshot, dead man's switch, health-check, revert. (Shell, last push 2026-09-25)
@@ -45,7 +45,7 @@ Static pages that keep your data in your own browser.
 
 Things that live in a shell, or in the menu bar next to it.
 
-- [pegel-visual](https://github.com/bmmmm/pegel-visual): live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver. Live: https://bmmmm.github.io/pegel-visual/ (JavaScript, last push 2026-10-10)
+- [pegel-visual](https://github.com/bmmmm/pegel-visual): live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver. Live: https://bmmmm.github.io/pegel-visual/ (JavaScript, last push 2026-10-12)
 - [KeebLock](https://github.com/bmmmm/KeebLock): locks the keyboard while you clean it, with animations worth the thirty seconds. (Swift, last push 2026-10-01)
 - [vpnii](https://github.com/bmmmm/vpnii): VPN status in the zsh prompt, on top of WireGuard and Tailscale. (Shell, last push 2026-10-01)
 - [pwdtintii](https://github.com/bmmmm/pwdtintii): the terminal background takes its colour from the directory you are in. zsh, bash, fish, tmux-aware. (Shell, last push 2026-10-01)
