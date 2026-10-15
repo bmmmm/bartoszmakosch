@@ -12,8 +12,8 @@ them: https://github.com/bmmmm
 
 Instrumenting, measuring and fact-checking what models actually do.
 
+- [claudii](https://github.com/bmmmm/claudii): statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons. Live: https://bmmmm.github.io/claudii/ (Shell, last push 2026-10-14)
 - [comparereleaseii](https://github.com/bmmmm/comparereleaseii): fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone. Live: https://bmmmm.github.io/comparereleaseii/demo/ (TypeScript, last push 2026-10-13)
-- [claudii](https://github.com/bmmmm/claudii): statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons. Live: https://bmmmm.github.io/claudii/ (Shell, last push 2026-10-12)
 
 ## Backup, recovery & proof
 
@@ -45,9 +45,9 @@ Things that live in a shell, or in the menu bar next to it.
 
 Four small extensions for the reader I actually use every day.
 
+- [ShareViaQRCode](https://github.com/bmmmm/xExtension-ShareViaQRCode): a large QR code for the current article, so a phone can pick the link off the screen. (JavaScript, last push 2026-10-14)
+- [NoteDrop](https://github.com/bmmmm/xExtension-NoteDrop): drop notes and links on one device, copy them on another with one click. (PHP, last push 2026-10-14)
 - [ClickHistory](https://github.com/bmmmm/xExtension-ClickHistory): keeps a history of the article links you actually opened. (PHP, last push 2026-10-13)
-- [ShareViaQRCode](https://github.com/bmmmm/xExtension-ShareViaQRCode): a large QR code for the current article, so a phone can pick the link off the screen. (JavaScript, last push 2026-10-12)
-- [NoteDrop](https://github.com/bmmmm/xExtension-NoteDrop): drop notes and links on one device, copy them on another with one click. (PHP, last push 2026-10-06)
 - [ExitReaderView](https://github.com/bmmmm/xExtension-ExitReaderView): a floating button to leave the reading view in one click. (JavaScript, last push 2026-09-29)
 
 ## Contact
