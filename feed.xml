@@ -4,13 +4,61 @@
   <subtitle>One entry per project, renewed whenever it is pushed to. Source for all of them: https://github.com/bmmmm</subtitle>
   <link href="https://github.com/bmmmm"/>
   <id>urn:uuid:bf88393a-ff9d-4e7f-abd8-b1a238cdc96f</id>
-  <updated>2026-10-20T08:30:36Z</updated>
+  <updated>2026-10-20T20:52:00Z</updated>
   <author><name>Bartosz</name></author>
+  <entry>
+    <title>pegel-visual — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</title>
+    <link href="https://github.com/bmmmm/pegel-visual"/>
+    <id>https://github.com/bmmmm/pegel-visual#2026-10-20</id>
+    <updated>2026-10-20T20:52:00Z</updated>
+    <summary>live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</summary>
+    <content type="text">Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.</content>
+  </entry>
+  <entry>
+    <title>ShareViaQRCode — a large QR code for the current article, so a phone can pick the link off the screen.</title>
+    <link href="https://github.com/bmmmm/xExtension-ShareViaQRCode"/>
+    <id>https://github.com/bmmmm/xExtension-ShareViaQRCode#2026-10-20</id>
+    <updated>2026-10-20T18:44:40Z</updated>
+    <summary>a large QR code for the current article, so a phone can pick the link off the screen.</summary>
+    <content type="text">Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.</content>
+  </entry>
+  <entry>
+    <title>shieldchipiii — stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory.</title>
+    <link href="https://github.com/bmmmm/shieldchipiii"/>
+    <id>https://github.com/bmmmm/shieldchipiii#2026-10-20</id>
+    <updated>2026-10-20T15:06:36Z</updated>
+    <summary>stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory.</summary>
+    <content type="text">A stone-chip logbook for your car windshield: photograph and date every chip, so the insurance conversation later has a record instead of a memory. Local-only web app plus a terminal CLI, DE/EN.</content>
+  </entry>
+  <entry>
+    <title>db-wallet — drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.</title>
+    <link href="https://github.com/bmmmm/db-wallet"/>
+    <id>https://github.com/bmmmm/db-wallet#2026-10-20</id>
+    <updated>2026-10-20T15:05:51Z</updated>
+    <summary>drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.</summary>
+    <content type="text">Drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.</content>
+  </entry>
+  <entry>
+    <title>comparereleaseii — fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.</title>
+    <link href="https://github.com/bmmmm/comparereleaseii"/>
+    <id>https://github.com/bmmmm/comparereleaseii#2026-10-20</id>
+    <updated>2026-10-20T15:05:36Z</updated>
+    <summary>fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.</summary>
+    <content type="text">Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?</content>
+  </entry>
+  <entry>
+    <title>gymii — floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.</title>
+    <link href="https://github.com/bmmmm/gymii"/>
+    <id>https://github.com/bmmmm/gymii#2026-10-20</id>
+    <updated>2026-10-20T15:04:13Z</updated>
+    <summary>floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.</summary>
+    <content type="text">Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.</content>
+  </entry>
   <entry>
     <title>claudii — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.</title>
     <link href="https://github.com/bmmmm/claudii"/>
     <id>https://github.com/bmmmm/claudii#2026-10-20</id>
-    <updated>2026-10-20T08:30:36Z</updated>
+    <updated>2026-10-20T15:03:40Z</updated>
     <summary>statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.</summary>
     <content type="text">A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell.</content>
   </entry>
@@ -21,14 +69,6 @@
     <updated>2026-10-20T06:34:52Z</updated>
     <summary>drop notes and links on one device, copy them on another with one click.</summary>
     <content type="text">Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.</content>
-  </entry>
-  <entry>
-    <title>pegel-visual — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</title>
-    <link href="https://github.com/bmmmm/pegel-visual"/>
-    <id>https://github.com/bmmmm/pegel-visual#2026-10-19</id>
-    <updated>2026-10-19T21:46:03Z</updated>
-    <summary>live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</summary>
-    <content type="text">Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.</content>
   </entry>
   <entry>
     <title>ClickHistory — keeps a history of the article links you actually opened.</title>
@@ -47,30 +87,6 @@
     <content type="text">EPC QR code (GiroCode) generator — a single static binary with its own QR encoder core rather than a dependency tree, so a payment code can be generated on a machine you do not want to install anything on.</content>
   </entry>
   <entry>
-    <title>ShareViaQRCode — a large QR code for the current article, so a phone can pick the link off the screen.</title>
-    <link href="https://github.com/bmmmm/xExtension-ShareViaQRCode"/>
-    <id>https://github.com/bmmmm/xExtension-ShareViaQRCode#2026-10-14</id>
-    <updated>2026-10-14T18:29:36Z</updated>
-    <summary>a large QR code for the current article, so a phone can pick the link off the screen.</summary>
-    <content type="text">Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.</content>
-  </entry>
-  <entry>
-    <title>comparereleaseii — fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.</title>
-    <link href="https://github.com/bmmmm/comparereleaseii"/>
-    <id>https://github.com/bmmmm/comparereleaseii#2026-10-13</id>
-    <updated>2026-10-13T21:00:52Z</updated>
-    <summary>fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.</summary>
-    <content type="text">Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?</content>
-  </entry>
-  <entry>
-    <title>gymii — floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.</title>
-    <link href="https://github.com/bmmmm/gymii"/>
-    <id>https://github.com/bmmmm/gymii#2026-10-13</id>
-    <updated>2026-10-13T14:09:56Z</updated>
-    <summary>floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.</summary>
-    <content type="text">Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.</content>
-  </entry>
-  <entry>
     <title>how-small-can-we-go — trust-golf: one champion per task, dethroned by needing less trust. Measured, never claimed.</title>
     <link href="https://github.com/bmmmm/how-small-can-we-go"/>
     <id>https://github.com/bmmmm/how-small-can-we-go#2026-10-11</id>
@@ -85,22 +101,6 @@
     <updated>2026-10-01T22:41:08Z</updated>
     <summary>turn one music link into links for every streaming platform.</summary>
     <content type="text">Turn one music link into links for every streaming platform, so a recommendation stops depending on what the other person subscribes to. Fully static.</content>
-  </entry>
-  <entry>
-    <title>db-wallet — drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.</title>
-    <link href="https://github.com/bmmmm/db-wallet"/>
-    <id>https://github.com/bmmmm/db-wallet#2026-10-01</id>
-    <updated>2026-10-01T21:54:40Z</updated>
-    <summary>drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.</summary>
-    <content type="text">Drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.</content>
-  </entry>
-  <entry>
-    <title>shieldchipiii — stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory.</title>
-    <link href="https://github.com/bmmmm/shieldchipiii"/>
-    <id>https://github.com/bmmmm/shieldchipiii#2026-10-01</id>
-    <updated>2026-10-01T12:25:51Z</updated>
-    <summary>stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory.</summary>
-    <content type="text">A stone-chip logbook for your car windshield: photograph and date every chip, so the insurance conversation later has a record instead of a memory. Local-only web app plus a terminal CLI, DE/EN.</content>
   </entry>
   <entry>
     <title>kuvertii — read what an email header says about you — who it was really addressed to, where the unsubscribe link leads.</title>
