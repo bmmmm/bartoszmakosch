@@ -25,9 +25,9 @@ Systems that assume the failure already happened and stay useful anyway.
 
 Static pages that keep your data in your own browser.
 
+- [gymii](https://github.com/bmmmm/gymii): floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device. Live: https://bmmmm.github.io/gymii/ (JavaScript, last push 2026-10-21)
 - [shieldchipiii](https://github.com/bmmmm/shieldchipiii): stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory. Live: https://bmmmm.github.io/shieldchipiii/ (JavaScript, last push 2026-10-20)
 - [db-wallet](https://github.com/bmmmm/db-wallet): drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn. Live: https://bmmmm.github.io/db-wallet/ (JavaScript, last push 2026-10-20)
-- [gymii](https://github.com/bmmmm/gymii): floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device. Live: https://bmmmm.github.io/gymii/ (JavaScript, last push 2026-10-20)
 - [musiclinkii](https://github.com/bmmmm/musiclinkii): turn one music link into links for every streaming platform. Live: https://bmmmm.github.io/musiclinkii/ (JavaScript, last push 2026-10-01)
 - [kuvertii](https://github.com/bmmmm/kuvertii): read what an email header says about you — who it was really addressed to, where the unsubscribe link leads. Live: https://bmmmm.github.io/kuvertii/ (JavaScript, last push 2026-10-01)
 - [putzii](https://github.com/bmmmm/putzii): cleaning schedule shared by capability link, with QR check-in. No backend at all. Live: https://bmmmm.github.io/putzii/ (JavaScript, last push 2026-09-25)
@@ -37,7 +37,7 @@ Static pages that keep your data in your own browser.
 
 Things that live in a shell, or in the menu bar next to it.
 
-- [pegel-visual](https://github.com/bmmmm/pegel-visual): live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver. Live: https://bmmmm.github.io/pegel-visual/ (JavaScript, last push 2026-10-20)
+- [pegel-visual](https://github.com/bmmmm/pegel-visual): live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver. Live: https://bmmmm.github.io/pegel-visual/ (JavaScript, last push 2026-10-21)
 - [epcii](https://github.com/bmmmm/epcii): EPC QR code (GiroCode) generator — one static binary with its own QR encoder core. Live: https://bmmmm.github.io/epcii/ (Go, last push 2026-10-15)
 - [git-times-live](https://github.com/bmmmm/git-times-live): a standalone live broadcast TV channel for your git activity. Live: https://bmmmm.github.io/git-times-live/ (Shell, last push 2026-09-25)
 
