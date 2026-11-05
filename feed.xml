@@ -4,8 +4,40 @@
   <subtitle>One entry per project, renewed whenever it is pushed to. Source for all of them: https://github.com/bmmmm</subtitle>
   <link href="https://github.com/bmmmm"/>
   <id>urn:uuid:bf88393a-ff9d-4e7f-abd8-b1a238cdc96f</id>
-  <updated>2026-11-03T23:24:55Z</updated>
+  <updated>2026-11-05T08:18:53Z</updated>
   <author><name>Bartosz</name></author>
+  <entry>
+    <title>comparereleaseii — fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.</title>
+    <link href="https://github.com/bmmmm/comparereleaseii"/>
+    <id>https://github.com/bmmmm/comparereleaseii#2026-11-05</id>
+    <updated>2026-11-05T08:18:53Z</updated>
+    <summary>fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.</summary>
+    <content type="text">Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?</content>
+  </entry>
+  <entry>
+    <title>gymii — floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.</title>
+    <link href="https://github.com/bmmmm/gymii"/>
+    <id>https://github.com/bmmmm/gymii#2026-11-05</id>
+    <updated>2026-11-05T08:11:15Z</updated>
+    <summary>floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.</summary>
+    <content type="text">Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.</content>
+  </entry>
+  <entry>
+    <title>pegel-visual — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</title>
+    <link href="https://github.com/bmmmm/pegel-visual"/>
+    <id>https://github.com/bmmmm/pegel-visual#2026-11-05</id>
+    <updated>2026-11-05T05:47:21Z</updated>
+    <summary>live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</summary>
+    <content type="text">Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.</content>
+  </entry>
+  <entry>
+    <title>kuvertii — read what an email header says about you — who it was really addressed to, where the unsubscribe link leads.</title>
+    <link href="https://github.com/bmmmm/kuvertii"/>
+    <id>https://github.com/bmmmm/kuvertii#2026-11-05</id>
+    <updated>2026-11-05T01:05:07Z</updated>
+    <summary>read what an email header says about you — who it was really addressed to, where the unsubscribe link leads.</summary>
+    <content type="text">Paste an email header and read what it says about you: who the message was really addressed to, how that address was hidden from the other recipients, and where the unsubscribe link actually leads. Runs entirely client-side — a tool about privacy that uploaded your mail headers would be a joke.</content>
+  </entry>
   <entry>
     <title>claudii — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.</title>
     <link href="https://github.com/bmmmm/claudii"/>
@@ -13,14 +45,6 @@
     <updated>2026-11-03T23:24:55Z</updated>
     <summary>statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.</summary>
     <content type="text">A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell.</content>
-  </entry>
-  <entry>
-    <title>pegel-visual — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</title>
-    <link href="https://github.com/bmmmm/pegel-visual"/>
-    <id>https://github.com/bmmmm/pegel-visual#2026-11-03</id>
-    <updated>2026-11-03T22:33:19Z</updated>
-    <summary>live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</summary>
-    <content type="text">Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.</content>
   </entry>
   <entry>
     <title>ShareViaQRCode — a large QR code for the current article, so a phone can pick the link off the screen.</title>
@@ -53,30 +77,6 @@
     <updated>2026-11-01T22:02:07Z</updated>
     <summary>turn one music link into links for every streaming platform.</summary>
     <content type="text">Turn one music link into links for every streaming platform, so a recommendation stops depending on what the other person subscribes to. Fully static.</content>
-  </entry>
-  <entry>
-    <title>kuvertii — read what an email header says about you — who it was really addressed to, where the unsubscribe link leads.</title>
-    <link href="https://github.com/bmmmm/kuvertii"/>
-    <id>https://github.com/bmmmm/kuvertii#2026-11-01</id>
-    <updated>2026-11-01T22:01:58Z</updated>
-    <summary>read what an email header says about you — who it was really addressed to, where the unsubscribe link leads.</summary>
-    <content type="text">Paste an email header and read what it says about you: who the message was really addressed to, how that address was hidden from the other recipients, and where the unsubscribe link actually leads. Runs entirely client-side — a tool about privacy that uploaded your mail headers would be a joke.</content>
-  </entry>
-  <entry>
-    <title>comparereleaseii — fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.</title>
-    <link href="https://github.com/bmmmm/comparereleaseii"/>
-    <id>https://github.com/bmmmm/comparereleaseii#2026-11-01</id>
-    <updated>2026-11-01T17:07:52Z</updated>
-    <summary>fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.</summary>
-    <content type="text">Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?</content>
-  </entry>
-  <entry>
-    <title>gymii — floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.</title>
-    <link href="https://github.com/bmmmm/gymii"/>
-    <id>https://github.com/bmmmm/gymii#2026-11-01</id>
-    <updated>2026-11-01T11:08:40Z</updated>
-    <summary>floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.</summary>
-    <content type="text">Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.</content>
   </entry>
   <entry>
     <title>ClickHistory — keeps a history of the article links you actually opened.</title>
