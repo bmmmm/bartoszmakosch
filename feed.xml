@@ -4,13 +4,21 @@
   <subtitle>One entry per project, renewed whenever it is pushed to. Source for all of them: https://github.com/bmmmm</subtitle>
   <link href="https://github.com/bmmmm"/>
   <id>urn:uuid:bf88393a-ff9d-4e7f-abd8-b1a238cdc96f</id>
-  <updated>2026-11-14T21:43:14Z</updated>
+  <updated>2026-11-16T01:34:16Z</updated>
   <author><name>Bartosz</name></author>
+  <entry>
+    <title>comparereleaseii — fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.</title>
+    <link href="https://github.com/bmmmm/comparereleaseii"/>
+    <id>https://github.com/bmmmm/comparereleaseii#2026-11-16</id>
+    <updated>2026-11-16T01:34:16Z</updated>
+    <summary>fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.</summary>
+    <content type="text">Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?</content>
+  </entry>
   <entry>
     <title>pegel-visual — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</title>
     <link href="https://github.com/bmmmm/pegel-visual"/>
-    <id>https://github.com/bmmmm/pegel-visual#2026-11-14</id>
-    <updated>2026-11-14T21:43:14Z</updated>
+    <id>https://github.com/bmmmm/pegel-visual#2026-11-15</id>
+    <updated>2026-11-15T22:06:38Z</updated>
     <summary>live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</summary>
     <content type="text">Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.</content>
   </entry>
@@ -117,14 +125,6 @@
     <updated>2026-11-14T11:23:34Z</updated>
     <summary>drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.</summary>
     <content type="text">Drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.</content>
-  </entry>
-  <entry>
-    <title>comparereleaseii — fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.</title>
-    <link href="https://github.com/bmmmm/comparereleaseii"/>
-    <id>https://github.com/bmmmm/comparereleaseii#2026-11-14</id>
-    <updated>2026-11-14T11:23:24Z</updated>
-    <summary>fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.</summary>
-    <content type="text">Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?</content>
   </entry>
   <entry>
     <title>claudii — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.</title>
