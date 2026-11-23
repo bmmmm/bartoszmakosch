@@ -4,15 +4,23 @@
   <subtitle>One entry per project, renewed whenever it is pushed to. Source for all of them: https://github.com/bmmmm</subtitle>
   <link href="https://github.com/bmmmm"/>
   <id>urn:uuid:bf88393a-ff9d-4e7f-abd8-b1a238cdc96f</id>
-  <updated>2026-11-21T22:24:19Z</updated>
+  <updated>2026-11-23T05:23:13Z</updated>
   <author><name>Bartosz</name></author>
   <entry>
     <title>pegel-visual — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</title>
     <link href="https://github.com/bmmmm/pegel-visual"/>
-    <id>https://github.com/bmmmm/pegel-visual#2026-11-21</id>
-    <updated>2026-11-21T22:24:19Z</updated>
+    <id>https://github.com/bmmmm/pegel-visual#2026-11-23</id>
+    <updated>2026-11-23T05:23:13Z</updated>
     <summary>live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</summary>
     <content type="text">Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.</content>
+  </entry>
+  <entry>
+    <title>how-small-can-we-go — trust-golf: one champion per task, dethroned by needing less trust. Measured, never claimed.</title>
+    <link href="https://github.com/bmmmm/how-small-can-we-go"/>
+    <id>https://github.com/bmmmm/how-small-can-we-go#2026-11-22</id>
+    <updated>2026-11-22T18:13:56Z</updated>
+    <summary>trust-golf: one champion per task, dethroned by needing less trust. Measured, never claimed.</summary>
+    <content type="text">A trust-golf arena: one champion per task, dethroned by needing less trust — fewer third-party bytes, fewer dangerous constructs. Every entry is measured against the same surface metric, never self-declared, and the current champion is whoever survived the last challenge.</content>
   </entry>
   <entry>
     <title>ClickHistory — keeps a history of the article links you actually opened.</title>
@@ -101,14 +109,6 @@
     <updated>2026-11-14T11:26:31Z</updated>
     <summary>locks the keyboard while you clean it, with animations worth the thirty seconds.</summary>
     <content type="text">Locks the keyboard while you wipe it down, with animations worth watching for the thirty seconds it takes.</content>
-  </entry>
-  <entry>
-    <title>how-small-can-we-go — trust-golf: one champion per task, dethroned by needing less trust. Measured, never claimed.</title>
-    <link href="https://github.com/bmmmm/how-small-can-we-go"/>
-    <id>https://github.com/bmmmm/how-small-can-we-go#2026-11-14</id>
-    <updated>2026-11-14T11:25:10Z</updated>
-    <summary>trust-golf: one champion per task, dethroned by needing less trust. Measured, never claimed.</summary>
-    <content type="text">A trust-golf arena: one champion per task, dethroned by needing less trust — fewer third-party bytes, fewer dangerous constructs. Every entry is measured against the same surface metric, never self-declared, and the current champion is whoever survived the last challenge.</content>
   </entry>
   <entry>
     <title>gymii — floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.</title>
