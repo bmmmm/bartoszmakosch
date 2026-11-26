@@ -4,8 +4,48 @@
   <subtitle>One entry per project, renewed whenever it is pushed to. Source for all of them: https://github.com/bmmmm</subtitle>
   <link href="https://github.com/bmmmm"/>
   <id>urn:uuid:bf88393a-ff9d-4e7f-abd8-b1a238cdc96f</id>
-  <updated>2026-11-25T07:14:21Z</updated>
+  <updated>2026-11-26T01:12:03Z</updated>
   <author><name>Bartosz</name></author>
+  <entry>
+    <title>pegel-visual — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</title>
+    <link href="https://github.com/bmmmm/pegel-visual"/>
+    <id>https://github.com/bmmmm/pegel-visual#2026-11-26</id>
+    <updated>2026-11-26T01:12:03Z</updated>
+    <summary>live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</summary>
+    <content type="text">Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.</content>
+  </entry>
+  <entry>
+    <title>ShareViaQRCode — a large QR code for the current article, so a phone can pick the link off the screen.</title>
+    <link href="https://github.com/bmmmm/xExtension-ShareViaQRCode"/>
+    <id>https://github.com/bmmmm/xExtension-ShareViaQRCode#2026-11-25</id>
+    <updated>2026-11-25T22:01:59Z</updated>
+    <summary>a large QR code for the current article, so a phone can pick the link off the screen.</summary>
+    <content type="text">Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.</content>
+  </entry>
+  <entry>
+    <title>NoteDrop — drop notes and links on one device, copy them on another with one click.</title>
+    <link href="https://github.com/bmmmm/xExtension-NoteDrop"/>
+    <id>https://github.com/bmmmm/xExtension-NoteDrop#2026-11-25</id>
+    <updated>2026-11-25T22:01:50Z</updated>
+    <summary>drop notes and links on one device, copy them on another with one click.</summary>
+    <content type="text">Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.</content>
+  </entry>
+  <entry>
+    <title>ClickHistory — keeps a history of the article links you actually opened.</title>
+    <link href="https://github.com/bmmmm/xExtension-ClickHistory"/>
+    <id>https://github.com/bmmmm/xExtension-ClickHistory#2026-11-25</id>
+    <updated>2026-11-25T22:01:36Z</updated>
+    <summary>keeps a history of the article links you actually opened.</summary>
+    <content type="text">Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns &quot;I read something about this last month&quot; into a searchable list.</content>
+  </entry>
+  <entry>
+    <title>claudii — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.</title>
+    <link href="https://github.com/bmmmm/claudii"/>
+    <id>https://github.com/bmmmm/claudii#2026-11-25</id>
+    <updated>2026-11-25T18:52:05Z</updated>
+    <summary>statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.</summary>
+    <content type="text">A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell.</content>
+  </entry>
   <entry>
     <title>db-wallet — drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.</title>
     <link href="https://github.com/bmmmm/db-wallet"/>
@@ -13,30 +53,6 @@
     <updated>2026-11-25T07:14:21Z</updated>
     <summary>drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.</summary>
     <content type="text">Drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.</content>
-  </entry>
-  <entry>
-    <title>pegel-visual — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</title>
-    <link href="https://github.com/bmmmm/pegel-visual"/>
-    <id>https://github.com/bmmmm/pegel-visual#2026-11-25</id>
-    <updated>2026-11-25T01:38:18Z</updated>
-    <summary>live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.</summary>
-    <content type="text">Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.</content>
-  </entry>
-  <entry>
-    <title>ShareViaQRCode — a large QR code for the current article, so a phone can pick the link off the screen.</title>
-    <link href="https://github.com/bmmmm/xExtension-ShareViaQRCode"/>
-    <id>https://github.com/bmmmm/xExtension-ShareViaQRCode#2026-11-24</id>
-    <updated>2026-11-24T22:36:48Z</updated>
-    <summary>a large QR code for the current article, so a phone can pick the link off the screen.</summary>
-    <content type="text">Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.</content>
-  </entry>
-  <entry>
-    <title>NoteDrop — drop notes and links on one device, copy them on another with one click.</title>
-    <link href="https://github.com/bmmmm/xExtension-NoteDrop"/>
-    <id>https://github.com/bmmmm/xExtension-NoteDrop#2026-11-24</id>
-    <updated>2026-11-24T22:36:42Z</updated>
-    <summary>drop notes and links on one device, copy them on another with one click.</summary>
-    <content type="text">Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.</content>
   </entry>
   <entry>
     <title>shieldchipiii — stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory.</title>
@@ -69,14 +85,6 @@
     <updated>2026-11-24T21:53:03Z</updated>
     <summary>a floating button to leave the reading view in one click.</summary>
     <content type="text">Adds a floating button to leave the reading view in one click. Nine commits, and it fixes the thing that annoyed me daily.</content>
-  </entry>
-  <entry>
-    <title>ClickHistory — keeps a history of the article links you actually opened.</title>
-    <link href="https://github.com/bmmmm/xExtension-ClickHistory"/>
-    <id>https://github.com/bmmmm/xExtension-ClickHistory#2026-11-24</id>
-    <updated>2026-11-24T21:52:53Z</updated>
-    <summary>keeps a history of the article links you actually opened.</summary>
-    <content type="text">Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns &quot;I read something about this last month&quot; into a searchable list.</content>
   </entry>
   <entry>
     <title>musiclinkii — turn one music link into links for every streaming platform.</title>
@@ -125,14 +133,6 @@
     <updated>2026-11-24T21:46:35Z</updated>
     <summary>fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.</summary>
     <content type="text">Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?</content>
-  </entry>
-  <entry>
-    <title>claudii — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.</title>
-    <link href="https://github.com/bmmmm/claudii"/>
-    <id>https://github.com/bmmmm/claudii#2026-11-24</id>
-    <updated>2026-11-24T21:46:24Z</updated>
-    <summary>statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.</summary>
-    <content type="text">A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell.</content>
   </entry>
   <entry>
     <title>git-times-live — a standalone live broadcast TV channel for your git activity.</title>
